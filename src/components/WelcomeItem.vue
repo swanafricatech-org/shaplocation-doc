@@ -1,7 +1,8 @@
+<script setup>
 
-import { RouterLink } from 'vue-router';
+</script>
 <template>   
-    <header class="header fixed-top">	    
+    <header class="header fixed-top" >	    
         <div class="branding docs-branding">
             <div class="container-fluid position-relative py-2">
                 <div class="docs-logo-wrapper">
@@ -10,74 +11,50 @@ import { RouterLink } from 'vue-router';
 	                    <span></span>
 	                    <span></span>
 	                </button>
-	                <div class="site-logo"><RouterLink to="/" class="navbar-brand" ><img class="logo-icon me-2" src="/src/assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Coder<span class="text-alt">Docs</span></span></RouterLink></div>    
+	                <div class="site-logo"><RouterLink to="/" class="navbar-brand" ><img class="logo-icon me-2" src="/src/assets/images/coderdocs-logo.svg" alt="logo"></RouterLink></div>    
                 </div><!--//docs-logo-wrapper-->
 	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
 	                <div class="top-search-box d-none d-lg-flex">
 		                <form class="search-form">
-				            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+				            <input type="text" placeholder="Rechercher docs..." name="search" class="form-control search-input">
 				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
 				        </form>
 	                </div>
 	
-					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-		            </ul><!--//social-list-->
-		            <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderdocs-free-bootstrap-5-documentation-template-for-software-projects/" class="btn btn-primary d-none d-lg-flex">Download</a>
+					<div class="dropdown mx-4">
+                        <a class="btn btn-primary  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Langue
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Francais</a></li>
+                            <li><a class="dropdown-item" href="#">Anglais</a></li>
+                        </ul>
+                    </div>
 	            </div><!--//docs-top-utilities-->
             </div><!--//container-->
         </div><!--//branding-->
     </header><!--//header-->
     
-    
     <div class="docs-wrapper">
 	    <div id="docs-sidebar" class="docs-sidebar">
 		    <div class="top-search-box d-lg-none p-3">
                 <form class="search-form">
-		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <input type="text" placeholder="Recherche docs..." name="search" class="form-control search-input">
 		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
 		        </form>
             </div>
 		    <nav id="docs-nav" class="docs-nav navbar">
 			    <ul class="section-items list-unstyled nav flex-column pb-3">
 				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Section Item 1.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Section Item 1.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Section Item 1.3</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Section Item 1.4</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Section Item 1.5</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Section Item 1.6</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-box"></i></span>APIs</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Section Item 3.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section Item 3.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section Item 3.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder me-2"><i class="fas fa-tools"></i></span>Utilities</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Section Item 5.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Section Item 5.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Section Item 5.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder me-2"><i class="fas fa-laptop-code"></i></span>Web</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Section Item 6.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Section Item 6.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Section Item 6.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder me-2"><i class="fas fa-tablet-alt"></i></span>Mobile</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">Section Item 7.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">Section Item 7.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-3">Section Item 7.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder me-2"><i class="fas fa-book-reader"></i></span>Resources</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Section Item 8.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Section Item 8.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Section Item 8.3</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Presentation</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-hand-point-right"></i></span>Prise en main</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Connexion</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Création de Compte</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Configuration du Compte</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">Navigation de Base</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-5">Types d'Utilisateurs et Fonctionnalités Spécifiques</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-6">Exploration des Fonctionnalités</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-9"><span class="theme-icon-holder me-2"><i class="fas fa-lightbulb"></i></span>FAQs</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Section Item 9.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-2">Section Item 9.2</a></li>
@@ -90,505 +67,169 @@ import { RouterLink } from 'vue-router';
 		    <div class="container">
 			    <article class="docs-article" id="section-1">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2019-06-01</span></h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-						
-						<h5>Github Code Example:</h5>
-						<p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p>
-						<div class="docs-code-block">
-							<!-- ** Embed github code starts ** -->
-							<!-- ** Embed github code ends ** -->
-						</div><!--//docs-code-block-->
-						
-					     <h5>Highlight.js Example:</h5>
-						<p>You can <a class="theme-link" href="https://github.com/highlightjs/highlight.js" target="_blank">embed your code snippets using highlight.js</a> It supports <a class="theme-link" href="https://highlightjs.org/static/demo/" target="_blank">185 languages and 89 styles</a>.</p>
-						<p>This template uses <a class="theme-link" href="https://highlightjs.org/static/demo/" target="_blank">Atom One Dark</a> style for the code blocks: <br><code>&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css&#x22;&#x3E;</code></p>
-						<div class="docs-code-block">
-							<pre class="shadow-lg rounded"><code class="json hljs">[
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"apples"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
-  },
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
-  }
-]
-
-
-</code></pre>
-						</div><!--//docs-code-block-->
-						
-						
+					    <h1 class="docs-heading">Introduction <span class="docs-time">Dernière mise à jour : 2024-07-18</span></h1>
+					     <section class="docs-intro">
+							<p class="fw-medium">Explorez les fonctionnalités avancées et intuitives de ShapLocation pour une gestion immobilière et de transport efficace en Afrique.</p>
+						</section>
+	
 				    </header>
 				    <section class="docs-section" id="item-1-1">
-						<h2 class="section-heading">Section Item 1.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. </p>
-						<p>Code Example: <code>npm install &lt;package&gt;</code></p>
-						<h5>Unordered List Examples:</h5>
-						<ul>
-						    <li><strong class="me-1">HTML5:</strong> <code>&lt;div id="foo"&gt;</code></li>
-						    <li><strong class="me-1">CSS:</strong> <code>#foo { color: red }</code></li>
-						    <li><strong class="me-1">JavaScript:</strong> <code>console.log(&#x27;#foo\bar&#x27;);</code></li>
-						</ul>
-						<h5>Ordered List Examples:</h5>
-						<ol>
-							<li>Download lorem ipsum dolor sit amet.</li>
-							<li>Click ipsum faucibus venenatis.</li>
-							<li>Configure fermentum malesuada nunc.</li>
-							<li>Deploy donec non ante libero.</li>
-						</ol>
-                        <h5>Callout Examples:</h5>
-                        <div class="callout-block callout-block-info">
-                            
-                            <div class="content">
-                                <h4 class="callout-title">
-	                                <span class="callout-icon-holder me-1">
-		                                <i class="fas fa-info-circle"></i>
-		                            </span><!--//icon-holder-->
-	                                Note
-	                            </h4>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <code>&lt;code&gt;</code> , Nemo enim ipsam voluptatem quia voluptas <a href="#">link example</a> sit aspernatur aut odit aut fugit.</p>
-                            </div><!--//content-->
-                        </div><!--//callout-block-->
-                        
-                        <div class="callout-block callout-block-warning">
-                            <div class="content">
-                                <h4 class="callout-title">
-	                                <span class="callout-icon-holder me-1">
-		                                <i class="fas fa-bullhorn"></i>
-		                            </span><!--//icon-holder-->
-	                                Warning
-	                            </h4>
-                                <p>Nunc hendrerit odio quis dignissim efficitur. Proin ut finibus libero. Morbi posuere fringilla felis eget sagittis. Fusce sem orci, cursus in tortor <a href="#">link example</a> tellus vel diam viverra elementum.</p>
-                            </div><!--//content-->
-                        </div><!--//callout-block-->
-                        
-                        <div class="callout-block callout-block-success">
-                            <div class="content">
-                                <h4 class="callout-title">
-	                                <span class="callout-icon-holder me-1">
-		                                <i class="fas fa-thumbs-up"></i>
-		                            </span><!--//icon-holder-->
-	                                Tip
-	                            </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Link example</a> aenean commodo ligula eget dolor.</p>
-                            </div><!--//content-->
-                        </div><!--//callout-block-->
-                        
-                        <div class="callout-block callout-block-danger me-1">
-                            <div class="content">
-                                <h4 class="callout-title">
-	                                <span class="callout-icon-holder">
-		                                <i class="fas fa-exclamation-triangle"></i>
-		                            </span><!--//icon-holder-->
-	                                Danger
-	                            </h4>
-                                <p>Morbi eget interdum sapien. Donec sed turpis sed nulla lacinia accumsan vitae ut tellus. Aenean vestibulum <a href="#">Link example</a> maximus ipsum vel dignissim. Morbi ornare elit sit amet massa feugiat, viverra dictum ipsum pellentesque. </p>
-                            </div><!--//content-->
-                        </div><!--//callout-block-->
-                        
-                        <h5 class="mt-5">Alert Examples:</h5>
-                        <div class="alert alert-primary" role="alert">
-						  This is a primary alert—check it out!
-						</div>
-						<div class="alert alert-secondary" role="alert">
-						  This is a secondary alert—check it out!
-						</div>
-						<div class="alert alert-success" role="alert">
-						  This is a success alert—check it out!
-						</div>
-						<div class="alert alert-danger" role="alert">
-						  This is a danger alert—check it out!
-						</div>
-						<div class="alert alert-warning" role="alert">
-						  This is a warning alert—check it out!
-						</div>
-						<div class="alert alert-info" role="alert">
-						  This is a info alert—check it out!
-						</div>
-						<div class="alert alert-light" role="alert">
-						  This is a light alert—check it out!
-						</div>
-						<div class="alert alert-dark" role="alert">
-						  This is a dark alert—check it out!
-						</div>
-                        
-                       
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-1-2">
-						<h2 class="section-heading">Section Item 1.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-						<h5 class="mt-5">Lightbox Example:</h5>
-						
-						<p>The example below uses the <i class="fas fa-external-link-alt"></i> <a class="theme-link" href="https://github.com/andreknieriem/simplelightbox" target="_blank">simplelightbox plugin</a>. </p>
-						
-						<div class="simplelightbox-gallery row mb-3">
-							<div class="col-12 col-md-4 mb-3">
-						        <a href="/src/assets/images/coderpro-home.png"><img class="figure-img img-fluid shadow rounded" src="/src/assets/images/coderpro-home-thumb.png" alt="" title="CoderPro Home Page"/></a>
+						<div class="row">
+							<div class="col-md-6">
+								<h4 class="">Présentation de ShapLocation</h4>
+								<p> <span class=" fw-medium">Shaplocation</span> est la plateforme de gestion immobilière de référence en Afrique, offrant une solution complète et intégrée pour la gestion de biens immobiliers et de services de transport. Confronté aux défis croissants du secteur immobilier, ShapLocation se distingue par son interface conviviale et ses fonctionnalités avancées qui centralisent les informations nécessaires et automatisent les tâches administratives. Que vous soyez propriétaire, gestionnaire de biens ou locataire, ShapLocation vous permet de gérer efficacement tous les aspects de l'immobilier, de l'achat à la vente, en passant par la location.</p>  
+								<h4 class="">Objectifs de la documentation</h4>
+								<p>Cette documentation a pour but de vous familiariser avec toutes les fonctionnalités essentielles de ShapLocation. Vous apprendrez à utiliser la plateforme pour gérer vos biens immobiliers, effectuer des locations et des ventes en toute sécurité, ainsi que pour louer ou acheter des voitures. En explorant cette documentation, vous serez en mesure de maximiser l'utilisation de ShapLocation et d'optimiser vos opérations immobilières et de transport.</p>
 							</div>
-							<div class="col-12 col-md-4 mb-3">
-						        <a href="/src/assets/images/coderpro-features.png"><img class="figure-img img-fluid shadow rounded" src="/src/assets/images/coderpro-features-thumb.png" alt="" title="CoderPro Features Page"/></a>
-							</div><!--//col-->
-							<div class="col-12 col-md-4 mb-3">
-						        <a href="/src/assets/images/coderpro-pricing.png"><img class="figure-img img-fluid shadow rounded" src="/src/assets/images/coderpro-pricing-thumb.png" alt="" title="CoderPro Pricing Page"/></a>
-							</div><!--//col-->
-							
-						</div><!--//gallery-->
-						
-						<h5>Custom Table:</h5>
-						<div class="table-responsive my-4">
-							<table class="table table-bordered">
-								<tbody>
-								    <tr>
-									    <th class="theme-bg-light"><a class="theme-link" href="#">Option 1</a></th>
-									    <td>Option 1 desc lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
-									</tr>
-									<tr>
-									      <th class="theme-bg-light"><a class="theme-link" href="#">Option 2</a></th>
-									      <td>Option 2 desc lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
-									</tr>
-									
-									<tr>
-									    <th class="theme-bg-light"><a class="theme-link" href="#">Option 3</a></th>
-									    <td>Option 3 desc lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
-									</tr>
-									
-									<tr>
-									    <th class="theme-bg-light"><a class="theme-link" href="#">Option 4</a></th>
-									    <td>Option 4 desc lorem ipsum dolor sit amet, consectetur adipiscing elit. </td>
-									</tr>
-								</tbody>
-							</table>
-						</div><!--//table-responsive-->
-						<h5>Stripped Table:</h5>
-						<div class="table-responsive my-4">
-							<table class="table table-striped">
-								<thead>
-									<tr>
-										<th scope="col">#</th>
-										<th scope="col">First</th>
-										<th scope="col">Last</th>
-										<th scope="col">Handle</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<th scope="row">1</th>
-										<td>Mark</td>
-										<td>Otto</td>
-										<td>@mdo</td>
-									</tr>
-									<tr>
-										<th scope="row">2</th>
-										<td>Jacob</td>
-										<td>Thornton</td>
-										<td>@fat</td>
-									</tr>
-									<tr>
-										<th scope="row">3</th>
-										<td>Larry</td>
-										<td>the Bird</td>
-										<td>@twitter</td>
-									</tr>
-								</tbody>
-							</table>
-						</div><!--//table-responsive-->
-						<h5>Bordered Dark Table:</h5>
-						<div class="table-responsive my-4">
-							<table class="table table-bordered table-dark">
-								<thead>
-									<tr>
-										<th scope="col">#</th>
-										<th scope="col">First</th>
-										<th scope="col">Last</th>
-										<th scope="col">Handle</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<th scope="row">1</th>
-										<td>Mark</td>
-										<td>Otto</td>
-										<td>@mdo</td>
-									</tr>
-									<tr>
-										<th scope="row">2</th>
-										<td>Jacob</td>
-										<td>Thornton</td>
-										<td>@fat</td>
-									</tr>
-									<tr>
-										<th scope="row">3</th>
-										<td>Larry</td>
-										<td>the Bird</td>
-										<td>@twitter</td>
-									</tr>
-								</tbody>
-							</table>
-						</div><!--//table-responsive-->
-						
-						
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-1-3">
-						<h2 class="section-heading">Section Item 1.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-						<h5>Badges Examples:</h5>
-						<div class="my-4">
-						    <span class="badge badge-primary">Primary</span>
-							<span class="badge badge-secondary">Secondary</span>
-							<span class="badge badge-success">Success</span>
-							<span class="badge badge-danger">Danger</span>
-							<span class="badge badge-warning">Warning</span>
-							<span class="badge badge-info">Info</span>
-							<span class="badge badge-light">Light</span>
-							<span class="badge badge-dark">Dark</span>
+							<div class="col-md-6 simplelightbox-gallery">
+								<a href="/src/assets/images/shaplocation.png">
+                   					 <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/shaplocation.png" alt="Image représentative de l'interface principale de ShapLocation" title="Shaplocation image"/>
+                				</a>
+							</div>
 						</div>
-						<h5>Button Examples:</h5>
-						<div class="row my-3">
-                        <div class="col-md-6 col-12">
-                                <ul class="list list-unstyled pl-0">
-                                    <li><a href="#" class="btn btn-primary">Primary Button</a></li>
-                                    <li><a href="#" class="btn btn-secondary">Secondary Button</a></li>
-                                    <li><a href="#" class="btn btn-light">Light Button</a></li>
-                                    <li><a href="#" class="btn btn-success">Succcess Button</a></li>
-                                    <li><a href="#" class="btn btn-info">Info Button</a></li>
-                                    <li><a href="#" class="btn btn-warning">Warning Button</a></li>
-                                    <li><a href="#" class="btn btn-danger">Danger Button</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <ul class="list list-unstyled pl-0">
-                                    <li><a href="#" class="btn btn-primary"><i class="fas fa-download me-2"></i> Download Now</a></li>
-                                    <li><a href="#" class="btn btn-secondary"><i class="fas fa-book me-2"></i> View Docs</a></li>
-                                    <li><a href="#" class="btn btn-light"><i class="fas fa-arrow-alt-circle-right me-2"></i> View Features</a></li>
-                                    <li><a href="#" class="btn btn-success"><i class="fas fa-code-branch me-2"></i> Fork Now</a></li>
-                                    <li><a href="#" class="btn btn-info"><i class="fas fa-play-circle me-2"></i> Find Out Now</a></li>
-                                    <li><a href="#" class="btn btn-warning"><i class="fas fa-bug me-2"></i> Report Bugs</a></li>
-                                    <li><a href="#" class="btn btn-danger"><i class="fas fa-exclamation-circle me-2"></i> Submit Issues</a></li>
-                                </ul>
-                            </div>
-                        </div><!--//row-->
-                        
-                        <h5>Progress Examples:</h5>
-                        <div class="my-4">
-	                        <div class="progress my-4">
-								<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<div class="progress my-4">
-							    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<div class="progress my-4">
-							    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<div class="progress my-4">
-							    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-                        </div>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-1-4">
-						<h2 class="section-heading">Section Item 1.4</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-						
-						
-						<h5>Pagination Example:</h5>
-						<nav aria-label="Page navigation example">
-						    <ul class="pagination pl-0">
-							    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-							    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-							    <li class="page-item"><a class="page-link" href="#">2</a></li>
-							    <li class="page-item"><a class="page-link" href="#">3</a></li>
-							    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-						    </ul>
-						</nav>
-						
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-						
-					</section><!--//section-->
-					<section class="docs-section" id="item-1-5">
-						<h2 class="section-heading">Section Item 1.5</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					<section class="docs-section" id="item-1-6">
-						<h2 class="section-heading">Section Item 1.6</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
+						</section>				
 			    </article>
 			    
-			    <article class="docs-article" id="section-2">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Installation</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-2-1">
-						<h2 class="section-heading">Section Item 2.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-2-2">
-						<h2 class="section-heading">Section Item 2.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-2-3">
-						<h2 class="section-heading">Section Item 2.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    
-			    <article class="docs-article" id="section-3">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">APIs</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-3-1">
-						<h2 class="section-heading">Section Item 3.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-3-2">
-						<h2 class="section-heading">Section Item 3.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-3-3">
-						<h2 class="section-heading">Section Item 3.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    <article class="docs-article" id="section-4">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Intergrations</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-4-1">
-						<h2 class="section-heading">Section Item 4.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-4-2">
-						<h2 class="section-heading">Section Item 4.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-4-3">
-						<h2 class="section-heading">Section Item 4.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    <article class="docs-article" id="section-5">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Utilities</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-5-1">
-						<h2 class="section-heading">Section Item 5.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-5-2">
-						<h2 class="section-heading">Section Item 5.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-5-3">
-							<h2 class="section-heading">Section Item 5.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    
-		        <article class="docs-article" id="section-6">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Web</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-6-1">
-						<h2 class="section-heading">Section Item 6.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-6-2">
-						<h2 class="section-heading">Section Item 6.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-6-3">
-							<h2 class="section-heading">Section Item 6.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    
-			    <article class="docs-article" id="section-7">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Mobile</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-7-1">
-						<h2 class="section-heading">Section Item 7.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-7-2">
-						<h2 class="section-heading">Section Item 7.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-7-3">
-							<h2 class="section-heading">Section Item 7.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    
-			    <article class="docs-article" id="section-8">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Resources</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
-				    </header>
-				     <section class="docs-section" id="item-8-1">
-						<h2 class="section-heading">Section Item 8.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-8-2">
-						<h2 class="section-heading">Section Item 8.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-8-3">
-							<h2 class="section-heading">Section Item 8.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
-			    </article><!--//docs-article-->
-			    
-			    
+			   <article class="docs-article" id="section-2">
+    <header class="docs-header">
+        <h1 class="docs-heading">Prise en main</h1>
+        <section class="docs-intro">
+            <p>Découvrez comment démarrer avec ShapLocation pour tirer parti de ses fonctionnalités complètes. De la création de compte à la navigation intuitive, suivez ces étapes pour explorer facilement les possibilités offertes par notre plateforme.</p>
+        </section>
+    </header>
+    
+    <section class="docs-section" id="item-2-1">
+        <div class=" row mb-3">
+            <div class="col-md-6">
+                <h4 class="">Connexion</h4>
+                <ol>
+                    <li>Entrez votre numéro de téléphone ou email et votre mot de passe.</li>
+                    <li>Cliquez sur le bouton "Se connecter".</li>
+                </ol>
+            </div>
+            <div class="col-md-6 simplelightbox-gallery">
+				<a href="/src/assets/images/login.png" >
+                   	<img class="figure-img img-fluid shadow rounded" src="/src/assets/images/login.png" alt="Image de la page de connexion" title="Page de connexion">
+                </a>
+			</div>
+        </div>
+    </section>
+
+    <section class="docs-section" id="item-2-2">
+        <div class="simplelightbox-gallery row mt-5">
+            <div class="col-md-6">
+                <h4 class="">Création de Compte</h4>
+                <ol>
+                    <li>Cliquez sur le bouton "Inscription" ou "Créer un compte".</li>
+                    <li>Remplissez le formulaire avec vos informations personnelles (nom, email, mot de passe, etc.).</li>
+                    <li>Sélectionnez votre type d'utilisateur (Utilisateur Standard, Démarcheur, Entreprise).</li>
+                    <li>Cliquez sur le button "S'inscrire".</li>
+                </ol>
+                <h6>NB: Vous pouvez aussi vous connecter directement avec votre Gmail en cliquant sur le bouton "Se connecter avec Google".</h6>
+            </div>
+            <div class="col-md-6 simplelightbox-gallery">
+                <a href="/src/assets/images/register.png">
+                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/register.png" alt="Page de Création de Compte" title="Création de Compte"/>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="docs-section" id="item-2-3">
+        <div class="simplelightbox-gallery row mt-5">
+            <div class="col-md-6">
+                <h4 class="">Configuration du Compte</h4>
+                <ol>
+                    <li>Accédez à la section "Profil" depuis le menu de navigation.</li>
+                    <li>Ajoutez des informations supplémentaires telles que votre numéro de téléphone , une photo de profil et vous pouvez aussi changer le type de compte.</li>
+                    <li>Enregistrez les modifications.</li>
+                    <li>Vous pouvez aussi changer votre mot de passe en cliquant sur le button "Modifier le mot de passe".</li>
+                </ol>
+            </div>
+            <div class="col-md-6 simplelightbox-gallery">
+                <a href="/src/assets/images/profil.png">
+                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/profil.png" alt="Imformation de profile" title="Configuration de profile"/>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="docs-section" id="item-2-4">
+        <div class="simplelightbox-gallery row mt-5">
+            <div class="col-md-12">
+            <h4 class="">Barre de Navigation Principale</h4>
+            <p>La barre de navigation principale se trouve en haut de chaque page et comprend les éléments suivants :</p>
+            <ul>
+                <li><strong>Barre de Recherche :</strong> Permet de rechercher des biens immobiliers ou des véhicules.</li>
+                <li><strong>Bouton de Filtre :</strong> Ouvre une interface de filtres pour affiner les résultats de recherche par divers critères (prix, localisation, type de bien, etc.).</li>
+                <li><strong>Panier d'Achat :</strong> Affiche les articles ajoutés au panier pour une éventuelle transaction.</li>
+                <li><strong>Bouton de Messagerie :</strong> Redirige vers la page de discussions pour communiquer avec les propriétaires ou les agents.</li>
+                <li><strong>Bouton de Sélection de Langue :</strong> Permet de choisir entre l'anglais et le français.</li>
+                <li><strong>Bouton de Menu :</strong> Contient des liens vers les sections "À propos", "Contacts", "FAQ", "Profil", et "Se déconnecter".</li>
+            </ul>
+        </div>
+            <!-- <div class="col-md-6 simplelightbox-gallery">
+                <a href="/src/assets/images/navigation.png">
+                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/navigation.png" alt="Navigation de Base" title="Navigation de Base"/>
+                </a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="docs-section" id="item-2-5">
+        <div class="simplelightbox-gallery row mt-5">
+            <div class="col-md-12">
+                <h4 class="">Types d'Utilisateurs et Fonctionnalités Spécifiques</h4>
+                <p>ShapLocation propose des fonctionnalités spécifiques selon le type d'utilisateur :</p>
+                <h5>1. Utilisateur Standard</h5>
+                <ul>
+                    <li>Fonctionnalités Principales : Faire des achats, louer des propriétés, contacter les démarcheurs et les entreprises.</li>
+                    <li>Gestion des Achats : Visualisez et suivez vos commandes et locations.</li>
+                    <li>Avis et Évaluations : Donnez des avis et évaluations sur les biens achetés ou loués.</li>
+                </ul>
+                <h5>2. Démarcheur</h5>
+                <ul>
+                    <li>Fonctionnalités Principales : Publier des annonces, organiser des visites, négocier des transactions.</li>
+                    <li>Gestion des Annonces : Créez, modifiez et supprimez vos annonces.</li>
+                    <li>Suivi des Interactions : Gérez les communications avec les utilisateurs standard et les entreprises.</li>
+                </ul>
+                <h5>3. Entreprise</h5>
+                <ul>
+                    <li>Fonctionnalités Principales : Publier des annonces, gérer plusieurs propriétés, accéder à des outils d'analyse avancés.</li>
+                    <li>Gestion des Propriétés : Ajoutez et gérez un grand nombre de propriétés.</li>
+                    <li>Statistiques et Rapports : Accédez à des rapports détaillés sur les performances de vos annonces et propriétés.</li>
+                </ul>
+            </div>
+            <!-- <div class="col-md-6 simplelightbox-gallery">
+                <a href="/src/assets/images/coderpro-features.png">
+                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/coderpro-features-thumb.png" alt="Types d'Utilisateurs" title="Types d'Utilisateurs"/>
+                </a> 
+            </div>-->
+        </div>
+    </section>
+
+    <section class="docs-section" id="item-2-6">
+        <div class="simplelightbox-gallery row mt-5">
+            <div class="col-md-12">
+                <h4 class="">Exploration des Fonctionnalités Clés</h4>
+                <ul>
+                    <li>Gestion des Propriétés : Ajoutez des fiches détaillées pour chaque bien immobilier, incluant des photos, des descriptions et des documents juridiques. Suivez l'état de chaque propriété (disponible, en location, en vente, etc.).</li>
+                    <li>Création d'Annonces : Publiez des annonces de location et de vente avec des descriptions complètes et des photos de haute qualité. Utilisez les outils de promotion pour augmenter la visibilité de vos annonces.</li>
+                    <li>Gestion des Locations : Organisez des visites virtuelles pour vos propriétés. Gérez les demandes de location et les négociations de loyer via le chat en ligne.</li>
+                    <li>Achats et Ventes : Achetez ou vendez des maisons, appartements et hôtels en toute sécurité. Utilisez les outils de vérification pour assurer la légalité des transactions.</li>
+                    <li>Location de Voitures : Louez une voiture en ligne en choisissant parmi une variété de véhicules disponibles. Comparez les prix et les options disponibles.</li>
+                    <li>Support et Assistance : Accédez à l'assistance professionnelle pour toute question ou problème technique. Utilisez la section FAQ pour trouver des réponses aux questions courantes.</li>
+                </ul>
+            </div>
+            <!--<div class="col-md-6 simplelightbox-gallery">
+                 <a href="/src/assets/images/coderpro-features.png">
+                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/coderpro-features-thumb.png" alt="Fonctionnalités Clés" title="Fonctionnalités Clés"/>
+                </a>
+            </div> -->
+        </div>
+    </section>
+               </article>
+
 			    <article class="docs-article" id="section-9">
 				    <header class="docs-header">
 					    <h1 class="docs-heading">FAQs</h1>
