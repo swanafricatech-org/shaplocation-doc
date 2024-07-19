@@ -2,9 +2,10 @@
 
 
 /* ====== Define JS Constants ====== */
-const sidebarToggler = document.getElementById('docs-sidebar-toggler');
+const sidebarToggler = document.querySelector('.docs-top-utilities #docs-sidebar-toggler');
 const sidebar = document.getElementById('docs-sidebar');
 const sidebarLinks = document.querySelectorAll('#docs-sidebar .scrollto');
+// const flexcolumn = document.querySelector(".toggle-flex");
 
 
 
@@ -23,7 +24,7 @@ window.onresize=function()
 
 function responsiveSidebar() {
     let w = window.innerWidth;
-	if(w >= 1200) {
+	if(w >= 769) {
 	    // if larger 
 	    console.log('larger');
 		sidebar.classList.remove('sidebar-hidden');
@@ -34,6 +35,7 @@ function responsiveSidebar() {
 	    console.log('smaller');
 	    sidebar.classList.remove('sidebar-visible');
 		sidebar.classList.add('sidebar-hidden');
+		
 	}
 };
 
