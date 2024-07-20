@@ -6,7 +6,7 @@
                 <div class="docs-logo-wrapper">
                     <div class="site-logo">
                         <RouterLink to="/" class="navbar-brand"><img class="logo-icon me-2"
-                                src="@/assets/logo.svg" alt="logo" /></RouterLink>
+                                src="@/assets/images/logo.svg" alt="logo" /></RouterLink>
                     </div>
                 </div>
                 <!--//docs-logo-wrapper-->
