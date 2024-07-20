@@ -30,11 +30,14 @@
                             <li><a class="dropdown-item" href="#">Anglais</a></li>
                         </ul>
                     </div>
-                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
-                        type="button">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <button type="button" id="docs-sidebar-toggler"
+                        class="vt-hamburger docs-sidebar-toggler docs-sidebar-visible VPNavBarHamburger hamburger d-xl-none"
+                        aria-label="Navigation mobile" aria-expanded="false" aria-controls="VPNavScreen">
+                        <span class="vt-hamburger-container ">
+                            <span class="vt-hamburger-top"></span>
+                            <span class="vt-hamburger-middle"></span>
+                            <span class="vt-hamburger-bottom"></span>
+                        </span>
                     </button>
                 </div>
                 <!--//docs-top-utilities-->

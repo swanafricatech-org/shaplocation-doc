@@ -24,7 +24,7 @@ window.onresize=function()
 
 function responsiveSidebar() {
     let w = window.innerWidth;
-	if(w >= 769) {
+	if(w >= 768.1) {
 	    // if larger 
 	    console.log('larger');
 		sidebar.classList.remove('sidebar-hidden');
@@ -40,6 +40,7 @@ function responsiveSidebar() {
 };
 
 sidebarToggler.addEventListener('click', () => {
+	sidebarToggler.classList.toggle("is-active");
 	if (sidebar.classList.contains('sidebar-visible')) {
 		console.log('visible');
 		sidebar.classList.remove('sidebar-visible');
