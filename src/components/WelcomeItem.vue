@@ -6,7 +6,7 @@
                 <div class="docs-logo-wrapper">
                     <div class="site-logo">
                         <RouterLink to="/" class="navbar-brand"><img class="logo-icon me-2"
-                                src="/src/assets/images/coderdocs-logo.svg" alt="logo" /></RouterLink>
+                                src="@/assets/logo.svg" alt="logo" /></RouterLink>
                     </div>
                 </div>
                 <!--//docs-logo-wrapper-->
@@ -136,9 +136,9 @@
                                 </p>
                             </div>
                             <div class="col-md-6 simplelightbox-gallery">
-                                <a href="/src/assets/images/shaplocation.png">
+                                <a href="@/assets/images/shaplocation.png">
                                     <img class="figure-img img-fluid shadow rounded"
-                                        src="/src/assets/images/shaplocation.png"
+                                        src="@/assets/images/shaplocation.png"
                                         alt="Image représentative de l'interface principale de ShapLocation"
                                         title="Shaplocation image" />
                                 </a>
@@ -173,8 +173,8 @@
                                 </ol>
                             </div>
                             <div class="col-md-6 simplelightbox-gallery">
-                                <a href="/src/assets/images/login.png">
-                                    <img class="figure-img img-fluid shadow rounded" src="/src/assets/images/login.png"
+                                <a href="@/assets/images/login.png">
+                                    <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login.png"
                                         alt="Image de la page de connexion" title="Page de connexion" />
                                 </a>
                             </div>
@@ -277,9 +277,9 @@
                                     </ol>
                                 </div>
                                 <div class="mt-4 simplelightbox-gallery">
-                                    <a href="/src/assets/images/profil.png">
+                                    <a href="@/assets/images/profil.png">
                                         <img class="figure-img img-fluid shadow rounded"
-                                            src="/src/assets/images/profil.png" alt="Information de profil"
+                                            src="@/assets/images/profil.png" alt="Information de profil"
                                             title="Configuration de profil" />
                                     </a>
                                 </div>
@@ -390,23 +390,23 @@
                             <h1>Formeemplacement</h1>
                             <p class="small">Notre mission, rendre possible</p>
                             <h5 class="t-title mb-3 pe-5">un toit pour tous !!</h5>
-                            <img src="/src/assets/images/line.png" alt="line">
+                            <img src="@/assets/images/line.png" alt="line">
                             <div class="d-flex align-items-center my-3">
-                                <img src="/src/assets/images/tel.png" alt="telephone">
+                                <img src="@/assets/images/tel.png" alt="telephone">
                                 <div class="ms-3">
                                     <p class="mb-0">(+229) <span class="fw-medium">94 170 440</span></p>
                                     <p class="mb-0">(+7) <span class="fw-medium">993 351 57 38</span></p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center my-3">
-                                <img src="/src/assets/images/mail.png" alt="mail">
+                                <img src="@/assets/images/mail.png" alt="mail">
                                 <div class="ms-3">
                                     <p class="mb-0"><a href="mailto:support@shaplocation.com"
                                             class="nav-link">support@shaplocation.com</a></p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center my-3">
-                                <img src="/src/assets/images/location.png" alt="adresse">
+                                <img src="@/assets/images/location.png" alt="adresse">
                                 <div class="ms-3">
                                     <p class="mb-0"><a href="#" target="_blank" rel="noopener noreferrer"
                                             class="nav-link">Abomey-Calavi - Bénin</a></p>
