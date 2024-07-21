@@ -1,3 +1,22 @@
+<script setup>
+// import { onMounted } from 'vue';
+// import { useI18n } from 'vue-i18n';
+
+
+// const { locale } = useI18n();
+
+// onMounted(() => {
+//     const savedLocale = localStorage.getItem('locale');
+//     if (savedLocale) {
+//         locale.value = savedLocale;
+//     }
+// });
+
+// const changeLanguage = (newLocale) => {
+//     locale.value = newLocale;
+//     localStorage.setItem('locale', newLocale);
+// };
+</script>
 <template lang="">
      <header class="header fixed-top">
         <div class="branding docs-branding">
@@ -19,13 +38,13 @@
                             </button>
                         </form>
                     </div>
-                    <div class="dropdown mx-3">
+                    <div class="dropdown mx-3" >
                         <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Langue
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Francais</a></li>
+                            <li><a class="dropdown-item" href="#" >Français</a></li>
                             <li><a class="dropdown-item" href="#">Anglais</a></li>
                         </ul>
                     </div>
@@ -47,9 +66,7 @@
     </header>
 </template>
 
-<script setup>
 
-</script>
 <style scoped>
     
 </style>

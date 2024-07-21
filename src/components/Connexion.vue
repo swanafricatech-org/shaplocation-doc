@@ -17,7 +17,7 @@
         </header>
 
         <section class="docs-section" id="item-2-1">
-            <h2 class="vt-doc">Comment se connecter ?</h2>
+            <h2 class="vt-doc pad-top">Comment se connecter ?</h2>
             <p>Pour se connecter à ShapLocation, vous avez deux options de connexion : par numéro de téléphone
                 et mot
                 de passe, ou par email et mot de passe. Voici comment procéder pour chaque méthode :
@@ -58,7 +58,8 @@
                         </li>
                         <li>Cliquez sur le bouton "Connexion".</li>
                     </ol>
-                    <span class="fw-medium">NB: vous pouvez aussi vous connectez directement en cliquant sur le button "Se connecter avec Google".</span>
+                    <span class="fw-medium">NB: vous pouvez aussi vous connectez directement en cliquant sur le button
+                        "Se connecter avec Google".</span>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class=" simplelightbox-gallery  ">

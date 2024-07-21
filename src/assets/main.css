@@ -142,19 +142,16 @@
 .vt-doc {
     margin: 1rem 0 1.8rem;
     /* border-top: .001px solid #24348d; */
-    padding-top: 1.8rem;
+    padding-top: 0;
     font-size: 24px;
     letter-spacing: -.02em;
     font-weight: 600;
     transition: color .25s, opacity .25s;
 }
-.pc{
-    margin-top: -22px;
+.pad-top{
+    padding-top: 1.8rem !important;
 }
-.ph{
-    margin-top: -48px !important;
-}
-
+.link-primary{color: #24348d !important;}
 @media screen  and (min-width: 768.5px) {
   .d-xl-none{
   display: none;

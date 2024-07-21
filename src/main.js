@@ -7,12 +7,26 @@ import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import { createI18n } from 'vue-i18n';
+import en from './locales/en.json'
+import fr from "./locales/fr.json";
+const i18n = createI18n({
+  legacy: false,
+  locale: "fr",
+  fallbackLocale: "fr",
+  messages: {
+    fr,
+    en,
+  },
+});
 
 const app = createApp(App);
 
-app.use(router);
 
+app.use(router);
+app.use(i18n);
 app.mount("#app");
+   
 
 "use strict";
 
@@ -23,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const sidebar = document.getElementById("docs-sidebar");
   const sidebarLinks = document.querySelectorAll("#docs-sidebar .scrollto");
-
+ console.log(router.currentRoute.value.path);
   if (sidebarToggler && sidebar) {
     /* ===== Responsive Sidebar ====== */
 
@@ -69,10 +83,16 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebarLinks.forEach((sidebarLink) => {
       sidebarLink.addEventListener("click", (e) => {
         e.preventDefault();
-
-        var target = sidebarLink.getAttribute("href").replace("#", "");
+        var target = sidebarLink;
+        // if (sidebarLink.classList.contains("active")) {
+        //   target.classList.remove("active");
+          
+        // } else {
+        //   target.classList.add("active");  
+        // }
 
         //console.log(target);
+        
 
         document.getElementById(target).scrollIntoView({ behavior: "smooth" });
 

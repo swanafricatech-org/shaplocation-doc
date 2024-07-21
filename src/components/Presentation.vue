@@ -1,5 +1,5 @@
 <script setup>
-import HeaderComponent from './HeaderComponent.vue';
+
 </script>
 <template>
 
@@ -20,7 +20,7 @@ import HeaderComponent from './HeaderComponent.vue';
         <section class="docs-section" id="item-1-1">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="vt-doc">Présentation de ShapLocation</h2>
+                    <h2 class="vt-doc pad-top">Présentation de ShapLocation</h2>
                     <p>
                         <span class="fw-medium">Shaplocation</span> est la plateforme
                         de gestion immobilière de référence en Afrique, offrant une
@@ -35,7 +35,7 @@ import HeaderComponent from './HeaderComponent.vue';
                         l'achat à la vente, en passant par la location.
                     </p>
                     <hr>
-                    <h2 class="vt-doc">Objectifs de la documentation</h2>
+                    <h2 class="vt-doc pad-top">Objectifs de la documentation</h2>
                     <p>
                         Cette documentation a pour but de vous familiariser avec
                         toutes les fonctionnalités essentielles de ShapLocation. Vous

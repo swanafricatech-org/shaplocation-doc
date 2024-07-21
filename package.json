@@ -10,7 +10,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "v-pagination-3": "^0.1.7",
     "vue": "^3.4.29",
+    "vue-i18n": "^9.13.1",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {

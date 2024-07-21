@@ -1,0 +1,132 @@
+{
+  "introduction": {
+    "title": "Introduction",
+    "lastUpdated": "Last updated: 2024-07-18",
+    "description": "Explore the advanced and intuitive features of ShapLocation for effective real estate and transport management in Africa.",
+    "presentation": {
+      "title": "Presentation of ShapLocation",
+      "description": "Shaplocation is the leading real estate management platform in Africa, offering a comprehensive and integrated solution for managing real estate and transport services. Faced with the growing challenges in the real estate sector, ShapLocation stands out with its user-friendly interface and advanced features that centralize the necessary information and automate administrative tasks. Whether you are an owner, property manager, or tenant, ShapLocation allows you to efficiently manage all aspects of real estate, from buying and selling to renting."
+    },
+    "objectives": {
+      "title": "Documentation Objectives",
+      "description": "This documentation aims to familiarize you with all the essential features of ShapLocation. You will learn how to use the platform to manage your real estate, perform rentals and sales securely, and also to rent or buy cars. By exploring this documentation, you will be able to maximize the use of ShapLocation and optimize your real estate and transport operations."
+    }
+  },
+  "gettingStarted": {
+    "title": "Getting Started",
+    "description": "Discover how to get started with ShapLocation to take advantage of its complete features. From creating an account to intuitive navigation, follow these steps to easily explore the possibilities offered by our platform.",
+    "login": {
+      "title": "How to Log In?",
+      "description": "To log in to ShapLocation, you have two login options: by phone number and password, or by email and password. Here’s how to proceed for each method:",
+      "phonePassword": {
+        "title": "Login with Phone Number and Password",
+        "steps": [
+          "Enter your phone number and password.",
+          "Ensure your phone number is registered on the platform.",
+          "The password must match the one you set during registration.",
+          "Click on the 'Login' button."
+        ]
+      },
+      "emailPassword": {
+        "title": "Login with Email and Password",
+        "steps": [
+          "Enter your email address and password.",
+          "Use the email address you registered on the platform.",
+          "The password must match the one you set during registration.",
+          "Click on the 'Login' button."
+        ],
+        "note": "NB: You can also log in directly by clicking the 'Sign in with Google' button."
+      }
+    },
+    "registration": {
+      "title": "How to Register?",
+      "description": "To register on ShapLocation, you have two registration options: full registration (lastname, firstname, phone number, etc.), or directly by clicking on the \"Register with Google\" button. Here’s how to proceed for each method:",
+      "fullSignup": {
+        "title": "Full Registration",
+        "steps": [
+          "Access the Platform - Go to ",
+          "Find the \"Create an Account\" link - On the homepage, look for the menu button at the top right of the page. Click on \"Sign In\". You will find the \"Create an Account\" link.",
+          "Provide Personal Information:",
+              "First and last name: Enter your first and last name.",
+              "Phone number: Provide an active phone number for verification and notifications.",
+              "Account types: Select the type of account you want to create (User, Merchant, Owner).<br /><span class=\"fw-medium\">NB: A merchant is a vendor.</span>",
+              "Password: Choose a secure and memorable password. The password must contain uppercase and lowercase letters, numbers, and symbols.</span>",
+              "Password Confirmation: Re-enter the password for confirmation.",
+          "Accept the Terms of Use - Read the terms of use and privacy policy of ShapLocation.",
+          "Verify Registration - Click on the \"Register\" button. You will receive an SMS with a verification code. Enter the code on the verification page."
+        ]
+      }
+    },
+    "profileUpdate": {
+      "title": "How to Update Your Profile?",
+      "steps": [
+        "Access the Platform - Go to https://shaplocation.com",
+        "Log in to your account.",
+        "Go to your profile by clicking on your name or profile picture at the top right.",
+        "Update Your Information:",
+        "First and Last Name: Modify your first and last name if necessary.",
+        "Profile Picture: Upload a new profile picture for better visual identification.",
+        "Email Address: Change your email address to receive notifications at the correct address.",
+        "Phone Number: Update your phone number for verification and SMS notifications.",
+        "Account Type: Change the account type if necessary.",
+        "Save Changes by clicking on the 'Edit Profile' button.",
+        "Check Updates - Ensure that changes have been properly saved by reviewing your profile."
+      ],
+      "note": "NB: If you encounter difficulties, contact us by email, phone, or by writing in this forum."
+    },
+    "userTypes": {
+      "title": "User Types and Their Features",
+      "standardUser": {
+        "title": "Standard User",
+        "features": [
+          "Browse the platform.",
+          "Search for items.",
+          "Set alerts for items of interest.",
+          "Add items to the cart.",
+          "Contact merchants."
+        ],
+        "description": "They have access to basic features such as search and messaging."
+      },
+      "promoter": {
+        "title": "Promoter",
+        "features": [
+          "Publish items for sale.",
+          "Manage their items.",
+          "Communicate with potential buyers."
+        ],
+        "description": "Promoters have access to additional tools for managing sales and inventories."
+      },
+      "owners": {
+        "title": "Owners",
+        "features": [
+          "Manage their real estate and services.",
+          "Publish multiple items.",
+          "Use advanced management tools.",
+          "Access detailed performance reports."
+        ]
+      }
+    },
+    "addArticle": {
+      "title": "How to Add an Item?",
+      "steps": [
+        "Ensure you are registered as a merchant or owner. If not, go to your profile and change the account type by following the instructions.",
+        "Access the platform by going to shaplocation.com.",
+        "Log in to your account.",
+        "Go to the dashboard by clicking on the dashboard icon in the form of a square at the top. Once clicked, you access your dashboard where your own articles will be displayed. By default, there are no items.",
+        "Add an item by clicking on the 'Add Item' button at the top right. You will see instructions to publish an item.",
+        "Publish an item by choosing the type of item you want to publish and following the remaining instructions."
+      ],
+      "note": "NB: Contact us if you encounter difficulties by email, phone, or by writing in this forum."
+    }
+  },
+  "navbar": {
+    "introduction": "Introduction",
+    "presentation": "Presentation",
+    "gettingStarted": "Getting Started",
+    "login": "Login",
+    "registration": "Registration",
+    "profileConfig": "Profile Configuration",
+    "usersFunctions": "Users and Functions",
+    "featureExploration": "Feature Exploration"
+  }
+}

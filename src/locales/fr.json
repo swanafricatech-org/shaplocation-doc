@@ -1,0 +1,132 @@
+{
+  "introduction": {
+    "title": "Introduction",
+    "lastUpdated": "Dernière mise à jour : 2024-07-18",
+    "description": "Explorez les fonctionnalités avancées et intuitives de ShapLocation pour une gestion immobilière et de transport efficace en Afrique.",
+    "presentation": {
+      "title": "Présentation de ShapLocation",
+      "description": "Shaplocation est la plateforme de gestion immobilière de référence en Afrique, offrant une solution complète et intégrée pour la gestion de biens immobiliers et de services de transport. Confronté aux défis croissants du secteur immobilier, ShapLocation se distingue par son interface conviviale et ses fonctionnalités avancées qui centralisent les informations nécessaires et automatisent les tâches administratives. Que vous soyez propriétaire, gestionnaire de biens ou locataire, ShapLocation vous permet de gérer efficacement tous les aspects de l'immobilier, de l'achat à la vente, en passant par la location."
+    },
+    "objectives": {
+      "title": "Objectifs de la documentation",
+      "description": "Cette documentation a pour but de vous familiariser avec toutes les fonctionnalités essentielles de ShapLocation. Vous apprendrez à utiliser la plateforme pour gérer vos biens immobiliers, effectuer des locations et des ventes en toute sécurité, ainsi que pour louer ou acheter des voitures. En explorant cette documentation, vous serez en mesure de maximiser l'utilisation de ShapLocation et d'optimiser vos opérations immobilières et de transport."
+    }
+  },
+  "gettingStarted": {
+    "title": "Prise en main",
+    "description": "Découvrez comment démarrer avec ShapLocation pour tirer parti de ses fonctionnalités complètes. De la création de compte à la navigation intuitive, suivez ces étapes pour explorer facilement les possibilités offertes par notre plateforme.",
+    "login": {
+      "title": "Comment se connecter ?",
+      "description": "Pour se connecter à ShapLocation, vous avez deux options de connexion : par numéro de téléphone et mot de passe, ou par email et mot de passe. Voici comment procéder pour chaque méthode :",
+      "phonePassword": {
+        "title": "Connexion par numéro de téléphone et mot de passe",
+        "steps": [
+          "Entrez votre numéro de téléphone et votre mot de passe.",
+          "Assurez-vous que votre numéro de téléphone est enregistré sur la plateforme.",
+          "Le mot de passe doit correspondre à celui que vous avez défini lors de votre inscription.",
+          "Cliquez sur le bouton 'Connexion'."
+        ]
+      },
+      "emailPassword": {
+        "title": "Connexion par Email et mot de passe",
+        "steps": [
+          "Entrez votre adresse email et votre mot de passe.",
+          "Utilisez l'adresse email que vous avez enregistrée sur la plateforme.",
+          "Le mot de passe doit correspondre à celui que vous avez défini lors de votre inscription.",
+          "Cliquez sur le bouton 'Connexion'."
+        ],
+        "note": "NB: vous pouvez aussi vous connectez directement en cliquant sur le bouton 'Se connecter avec Google'."
+      }
+    },
+    "registration": {
+      "title": "Comment s'inscrire ?",
+      "description": "Pour s'inscrire sur ShapLocation, vous avez deux options d'inscription : inscription complète (nom, prénom, numéro de téléphone, etc.), ou directement en cliquant sur le bouton \"S'inscrire avec Google\". Voici comment procéder pour chaque méthode :",
+      "fullSignup": {
+        "title": "Inscription complète",
+        "steps": [
+          "Accédez à la Plateforme - Allez sur ",
+          "Trouvez le lien \"Créer un compte\" - Sur la page d'accueil, recherchez le bouton de menu en haut à droite de la page. Cliquez sur \"Se connecter\". Vous trouverez le lien \"Créer un compte\".",
+          "Fournissez les Informations Personnelles :",
+              "Nom et prénom : Entrez votre prénom et nom.",
+              "Numéro de téléphone : Indiquez un numéro de téléphone actif pour la vérification et les notifications.",
+              "Types de compte : Sélectionnez le type de compte que vous voulez créer (Utilisateur, Marchand, Propriétaire).<br /><span class=\"fw-medium\">NB: Le démarcheur est un marchand.</span>",
+              "Mot de passe : Choisissez un mot de passe sécurisé et mémorable. Le mot de passe doit contenir des lettres majuscules, minuscules, des chiffres et des symboles.</span>",
+              "Confirmation du mot de passe : Saisissez à nouveau le mot de passe pour confirmation." ,
+          "Acceptez les Conditions d'Utilisation - Lisez les conditions d'utilisation et la politique de confidentialité de ShapLocation.",
+          "Vérifiez l'Inscription - Cliquez sur le bouton \"S'inscrire\". Vous recevrez un SMS avec un code de vérification. Entrez le code au niveau de la page de vérification."
+        ]
+      }
+    },
+    "profileUpdate": {
+      "title": "Comment mettre à jour le profil ?",
+      "steps": [
+        "Accédez à la Plateforme - Allez sur https://shaplocation.com",
+        "Connectez-vous à votre compte.",
+        "Accédez à votre profil en cliquant sur votre nom ou votre photo de profil en haut à droite.",
+        "Mettez à jour vos informations :",
+        "Nom et Prénom : Modifiez votre prénom et nom de famille si nécessaire.",
+        "Photo de Profil : Téléchargez une nouvelle photo de profil pour une meilleure identification visuelle.",
+        "Adresse Email : Changez votre adresse email pour recevoir des notifications à la bonne adresse.",
+        "Numéro de Téléphone : Mettez à jour votre numéro de téléphone pour les vérifications et les notifications par SMS.",
+        "Type de compte : Modifiez le type de compte si nécessaire.",
+        "Enregistrez les modifications en cliquant sur le bouton 'Modifier le profil'.",
+        "Vérifiez les mises à jour - Assurez-vous que les modifications ont été correctement enregistrées en consultant votre profil."
+      ],
+      "note": "NB: Si vous rencontrez des difficultés, contactez-nous par email, par téléphone ou en écrivant dans ce forum."
+    },
+    "userTypes": {
+      "title": "Types d'utilisateurs et leurs fonctionnalités",
+      "standardUser": {
+        "title": "Utilisateur Standard",
+        "features": [
+          "Naviguer sur la plateforme.",
+          "Rechercher des articles.",
+          "Activer les alertes pour les articles qui vous intéressent.",
+          "Ajouter des articles au panier.",
+          "Contacter les marchands."
+        ],
+        "description": "Ils ont accès aux fonctionnalités de base telles que la recherche et la messagerie."
+      },
+      "promoter": {
+        "title": "Démarcheur",
+        "features": [
+          "Publier des articles à vendre.",
+          "Gérer leurs articles.",
+          "Communiquer avec les acheteurs potentiels."
+        ],
+        "description": "Les démarcheurs ont accès à des outils supplémentaires pour la gestion des ventes et des inventaires."
+      },
+      "owners": {
+        "title": "Propriétaires",
+        "features": [
+          "Gérer leurs biens immobiliers et services.",
+          "Publier plusieurs articles.",
+          "Utiliser des outils de gestion avancés.",
+          "Accéder à des rapports détaillés sur leurs performances."
+        ]
+      }
+    },
+    "addArticle": {
+      "title": "Comment ajouter un article ?",
+      "steps": [
+        "Assurez-vous que vous êtes inscrit en tant que marchand ou propriétaire. Si ce n'est pas le cas, allez dans votre profil et changez le type de compte en suivant les instructions.",
+        "Accédez à la plateforme en allant sur shaplocation.com.",
+        "Connectez-vous à votre compte.",
+        "Accédez au tableau de bord en cliquant sur l'icône de tableau de bord en forme de carré en haut. Une fois cliquée, vous accédez à votre tableau de bord où vos propres articles seront affichés. Par défaut, il n'y a aucun article.",
+        "Ajoutez un article en cliquant sur le bouton 'Ajouter un article' en haut à droite. Vous verrez les instructions pour publier un article.",
+        "Publiez un article en choisissant le type d'article que vous souhaitez publier et en suivant les instructions restantes."
+      ],
+      "note": "NB: Contactez-nous si vous rencontrez des difficultés par email, par téléphone ou en écrivant dans ce forum."
+    }
+  },
+  "navbar": {
+    "introduction": "Introduction",
+    "presentation": "Présentation",
+    "gettingStarted": "Prise en main",
+    "login": "Connexion",
+    "registration": "Inscription",
+    "profileConfig": "Configuration de profil",
+    "usersFunctions": "Utilisateurs et Fonctions",
+    "featureExploration": "Exploration des Fonctionnalités"
+  }
+}

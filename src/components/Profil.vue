@@ -6,13 +6,13 @@
     <article class="docs-article ph" id="section-2">
 
         <section class="docs-section" id="item-2-3">
-            <h2 class="vt-doc">Comment mettre à jour son profil ?</h2>
+            <h2 class="vt-doc">Comment mettre à jour le profil ?</h2>
             <p>Pour mettre à jour son profile sur shaplocation suivez les étapes suivantes :</p>
             <div class="row mb-3 mt-3">
                 <div class="col-md-6">
                     <h5 class="">Mise à jour de profil</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur <a href="https://shaplocation.com">shaplocation.com</a></li>
+                        <li>Accédez à la Plateforme - Allez sur <a class="link-primary" href="https://shaplocation.com">shaplocation.com</a></li>
                         <li>Connectez-vous à votre compte.</li>
                         <li>Accédez à votre profil en cliquant sur votre nom ou votre photo de profil en haut à droite.
                         </li>

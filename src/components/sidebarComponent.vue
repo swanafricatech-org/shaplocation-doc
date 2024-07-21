@@ -1,3 +1,10 @@
+<script setup>
+import router from '@/router';
+import { RouterLink } from 'vue-router';
+function is_active(path){
+        return router.currentRoute.value.path === path;
+};
+</script>
 <template lang="">
     <div id="docs-sidebar" class="docs-sidebar">
             <div class="top-search-box d-lg-none p-3">
@@ -16,35 +23,33 @@
                                     class="fas fa-map-signs"></i></span>Introduction</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-1-1">Presentation</a>
+                        <RouterLink :class="{ active:is_active('/') } " class="nav-link scrollto" to="/">Presentation</RouterLink>
                     </li>
                     <li class="nav-item section-title mt-3">
-                        <a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i
+                        <a class="nav-link scrollto active" href="#section-2"><span class="theme-icon-holder me-2"><i
                                     class="fas fa-hand-point-right"></i></span>Prise en main</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-2-1">Connexion</a>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/connexion') } " to="/connexion">Connexion</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-2-2">Inscription</a>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/inscription') } " to="/inscription">Inscription</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-2-3">Configuration de profil</a>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/profil') } " to="/profil">Configuration de profil</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-2-4">Utilisateurs et Fonctionnalités</a>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/utilisateurs') } " to="/utilisateurs">Utilisateurs et Fonctions</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto" href="#item-2-5">Exploration des Fonctionnalités</a>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/ajout-article') } " to="/ajout-article">Ajouter un article</RouterLink>
                     </li>
                 </ul>
             </nav>
             <!--//docs-nav-->
         </div>
 </template>
-<script setup>
 
-</script>
 <style scoped>
     
 </style>
