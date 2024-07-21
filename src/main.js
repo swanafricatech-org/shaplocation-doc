@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function responsiveSidebar() {
       let w = window.innerWidth;
-      if (w >= 768.1) {
+      if (w >= 1200) {
         // if larger
         console.log("larger");
         sidebar.classList.remove("sidebar-hidden");
