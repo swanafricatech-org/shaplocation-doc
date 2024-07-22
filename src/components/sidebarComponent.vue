@@ -42,7 +42,10 @@ function is_active(path){
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe') } " to="/mot-de-passe">Modifier mot de passe</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/utilisateurs') } " to="/utilisateurs">Utilisateurs et Fonctions</RouterLink>
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe-oublier') } " to="/mot-de-passe-oublier">Réinitialiser mot de passe</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/utilisateurs') } " to="/utilisateurs">Utilisateurs et Rôles</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/ajout-article') } " to="/ajout-article">Ajouter un article</RouterLink>

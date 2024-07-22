@@ -15,6 +15,7 @@ const routes = [
   '/inscription',
   '/profil',
   '/mot-de-passe',
+  '/mot-de-passe-oublier',
   '/utilisateurs',
   '/ajout-article',
 

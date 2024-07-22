@@ -4,11 +4,20 @@
 <template>
 
     <article class="docs-article ph" id="section-2">
-
-        <section class="docs-section" >
-            <h2 class="vt-doc">Types d'utilisateurs et leurs fonctionnalités </h2>
+        <header class="docs-header">
+            <h1 class="docs-heading">Utilisateurs et rôles</h1>
+            <section class="docs-intro">
+                <p>
+                    Découvrez les différents types d'utilisateurs et les rôles associés sur ShapLocation. Comprenez les
+                    permissions et les fonctionnalités disponibles pour chaque type de compte afin de maximiser votre
+                    expérience sur la plateforme.
+                </p>
+            </section>
+        </header>
+        <section class="docs-section">
+            <h2 class="vt-doc pad-top">Types d'utilisateurs et leurs fonctionnalités </h2>
             <p>ShapLocation propose des fonctionnalités spécifiques selon le type d'utilisateur :</p>
-            <div class="row mb-3 mt-3">
+            <div class="row mb-3 mt-5">
                 <div class="col-md-12">
                     <h5>1. Utilisateur Standard</h5>
                     <p>Les utilisateurs standard peuvent :</p>

@@ -146,12 +146,15 @@
     font-size: 24px;
     letter-spacing: -.02em;
     font-weight: 600;
-    transition: color .25s, opacity .25s;
+    
 }
 .pad-top{
     padding-top: 1.8rem !important;
 }
 .link-primary{color: #24348d !important;}
+.link-primary:hover{
+    transition: color .5s;
+}
 @media screen  and (min-width: 1200px) {
   .d-xl-none{
   display: none;

@@ -4,26 +4,35 @@
 <template>
 
     <article class="docs-article pc" id="section-2">
-
-        <section class="docs-section" id="item-2-2">
-            <h2 class="vt-doc pc">Comment s'inscrire ?</h2>
-            <p>Pour s'inscrire sur ShapLocation, vous avez deux options d'inscription : incription complète
-                (Nom,prénom,numéro de téléphone etc...)
-                , ou directement en cliquant sur le button "S'inscrire avec Google". Voici comment procéder pour chaque
-                méthode :
+        <header class="docs-header">
+            <h1 class="docs-heading">Inscription</h1>
+            <section class="docs-intro">
+                <p>
+                    Découvrez comment créer un compte sur ShapLocation pour profiter de toutes ses fonctionnalités.
+                    Suivez ces
+                    étapes simples pour vous inscrire et commencer à utiliser notre plateforme.
+                </p>
+            </section>
+        </header>
+        <section class="docs-section ">
+            <h2 class="vt-doc pad-top">Comment s'inscrire ?</h2>
+            <p>Pour s'inscrire sur ShapLocation, vous avez deux (02) modes d'inscription :
+            <ul>
+                <li><a href="#ins-mode-1" class="link-primary"> Incription complète</a></li>
+                <li><a href="#ins-mode-2" class="link-primary">Inscription par Google</a></li>
+            </ul>
+            Voici comment procéder pour chaque méthode :
             </p>
-            <div class="row mb-3 mt-3">
+            <div class="row mb-3 mt-5" id="ins-mode-1">
                 <div class="col-md-6">
-                    <h5>Inscription complète</h5>
+                    <h5><span>#</span> Inscription complète</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur <a class="link-primary"
-                                href="https://shaplocation.com/" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
+                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
                         </li>
                         <li>
-                            Trouvez le lien "Créer un compte" - Sur la page d'accueil,
-                            recherchez le bouton de menu en haut à droite de la page.
-                            Cliquez sur "Se connecter". Vous trouverez le lien "Créer un
-                            compte".
+                            Vous verrez le lien "Créer un compte" en bas de la page,
+                            cliquer la dessus.
                         </li>
                         <li>
                             Fournissez les Informations Personnelles :
@@ -74,7 +83,42 @@
                     </div>
                 </div>
             </div>
+            <div class="row mb-3 mt-5" id="ins-mode-2">
+                <div class="col-md-6">
+                    <h5><span>#</span> Inscription par Google</h5>
+                    <ol>
+                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
+                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        </li>
+                        <li>
+                            Vous verrez le lien "Créer un compte" en bas de la page,
+                            cliquer la dessus.
+                        </li>
+                        <li> vous verrez
+                            le button "Se connecter avec
+                            Google" juste en bas .</li>
+                        <li>Cliquez sur le button "Se connecter avec Google".</li>
+                        <li>Une fenêtre de connexion Google s'ouvrira. Entrez vos informations de connexion Google
+                            (adresse email et mot de passe) et suivez les instructions pour vous authentifier.</li>
+                        <li>Accordez les autorisations - Si c'est la première fois que vous utilisez votre compte Google
+                            pour vous connecter à ShapLocation, vous serez invité à accorder certaines autorisations.
+                            Cliquez sur "Accepter" ou "Autoriser".</li>
+                        <li>Finalisez la Connexion - Une fois les autorisations accordées,vous serez inscrire
+                            automatiquement
+                            avec votre compte Google. Ensuite vous serez redirigé vers
+                            la page de <RouterLink to="/profil" class="link-primary"> mise à jour de profil</RouterLink>
+                        </li>
 
+
+                    </ol>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class=" gallery  ">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register.png"
+                            alt="Image de la page d'inscription par google" title="Page de d'inscription" />
+                    </div>
+                </div>
+            </div>
         </section>
     </article>
 

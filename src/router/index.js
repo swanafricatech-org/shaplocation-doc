@@ -7,6 +7,7 @@ import ProfilView from "../views/ProfilView.vue";
 import UtilisateursView from "../views/UtilisateursView.vue";
 import AjoutArticleView from "../views/AjoutArticleView.vue";
 import PasswordView from "../views/PasswordView.vue";
+import ForgotPasswordView from '../views/ForgotPasswordView.vue';
 
 
 const router = createRouter({
@@ -36,6 +37,11 @@ const router = createRouter({
       path: "/mot-de-passe",
       name: "password",
       component: PasswordView,
+    },
+    {
+      path: "/mot-de-passe-oublier",
+      name: "passwordforgot",
+      component: ForgotPasswordView,
     },
     {
       path: "/utilisateurs",
