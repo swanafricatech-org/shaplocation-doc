@@ -38,8 +38,8 @@
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class=" simplelightbox-gallery  ">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-1.png"
+                    <div class=" gallery  ">
+                       <a href="@/asset/images/login-1.png"></a> <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-1.png"
                             alt="Image de la page de connexion" title="Page de connexion" />
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         "Se connecter avec Google".</span>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class=" simplelightbox-gallery  ">
+                    <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-2.png"
                             alt="Image de la page de connexion" title="Page de connexion" />
                     </div>

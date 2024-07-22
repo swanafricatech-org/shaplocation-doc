@@ -5,12 +5,11 @@
 
     <article class="docs-article ph" id="section-2">
 
-        <section class="docs-section" id="item-2-5">
+        <section class="docs-section" >
             <h2 class="vt-doc">Comment ajouter un article ?</h2>
             <p>Pour ajouter un article sur shaplocation suivez les étapes suivantes :</p>
             <div class="row mb-3 mt-3">
-                <div class="col-md-6">
-                    <h5 class="">Mise à jour de profil</h5>
+                <div class="col-md-12">
                     <ol>
                         <li>
                             Assurez-vous que vous êtes inscrit en tant que marchand ou
@@ -44,12 +43,12 @@
                         écrivant dans ce forum.
                     </p>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <!-- <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class=" simplelightbox-gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/profil.png"
                             alt="Image de la page de profil" title="Page de profil" />
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </section>

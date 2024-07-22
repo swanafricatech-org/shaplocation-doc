@@ -41,7 +41,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class=" simplelightbox-gallery  ">
+                    <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/profil.png"
                             alt="Image de la page de profil" title="Page de profil" />
                     </div>

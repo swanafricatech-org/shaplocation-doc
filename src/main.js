@@ -1,7 +1,6 @@
 import './assets/main.css'
 import "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js";
 import "https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js";
-import "https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.js"; 
 import "https://cdnjs.cloudflare.com/ajax/libs/gumshoe/5.1.1/gumshoe.polyfills.min.js";
 import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"; 
 import { createApp } from 'vue'
@@ -10,6 +9,7 @@ import router from './router'
 import { createI18n } from 'vue-i18n';
 import en from './locales/en.json'
 import fr from "./locales/fr.json";
+
 const i18n = createI18n({
   legacy: false,
   locale: "fr",
@@ -114,9 +114,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   /* ====== SimpleLightbox Plugin ======= */
-  var lightbox = new SimpleLightbox(".simplelightbox-gallery a", {
-    /* options */
-  });
+  // var lightbox = new simpleLightbox(".gallery a", {
+  //   /* options */
+  // });
 
   
 });

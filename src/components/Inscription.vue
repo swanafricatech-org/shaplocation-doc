@@ -68,7 +68,7 @@
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class=" simplelightbox-gallery  ">
+                    <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register.png"
                             alt="Image de la page d'inscription" title="Page de d'inscription" />
                     </div>

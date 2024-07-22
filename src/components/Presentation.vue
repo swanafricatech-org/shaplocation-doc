@@ -53,8 +53,8 @@
                 <div class="col-md-6 d-flex align-items-center define-none">
                     <p>Page d'accueil de ShapLocation <i class="fas fa-arrow-right"></i></p>
                 </div>
-                <div class="col-md-6  simplelightbox-gallery mt-4 d-flex justify-content-center">
-                    <img class="figure-img img-fluid shadow rounded present-img" src="@/assets/images/shaplocation.png"
+                <div class="col-md-6  gallery mt-4 d-flex justify-content-center">
+                     <img class="figure-img img-fluid shadow rounded present-img" src="@/assets/images/shaplocation.png"
                         alt="Image représentative de l'interface principale de ShapLocation"
                         title="Shaplocation image" />
                 </div>

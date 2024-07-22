@@ -5,7 +5,7 @@
 
     <article class="docs-article ph" id="section-2">
 
-        <section class="docs-section" id="item-2-4">
+        <section class="docs-section" >
             <h2 class="vt-doc">Types d'utilisateurs et leurs fonctionnalités </h2>
             <p>ShapLocation propose des fonctionnalités spécifiques selon le type d'utilisateur :</p>
             <div class="row mb-3 mt-3">
