@@ -14,8 +14,11 @@ const routes = [
   '/connexion',
   '/inscription',
   '/profil',
+  '/mot-de-passe',
   '/utilisateurs',
-  '/ajout-article'
+  '/ajout-article',
+
+
 ];
 
 

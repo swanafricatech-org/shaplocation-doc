@@ -17,7 +17,7 @@
                     <h5>Inscription complète</h5>
                     <ol>
                         <li>Accédez à la Plateforme - Allez sur <a class="link-primary"
-                                href="https://shaplocation.com/">shaplocation.com</a>
+                                href="https://shaplocation.com/" target="_blank">shaplocation.com</a>
                         </li>
                         <li>
                             Trouvez le lien "Créer un compte" - Sur la page d'accueil,

@@ -12,7 +12,8 @@
                 <div class="col-md-6">
                     <h5 class="">Mise à jour de profil</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur <a class="link-primary" href="https://shaplocation.com">shaplocation.com</a></li>
+                        <li>Accédez à la Plateforme - Allez sur <a class="link-primary" href="https://shaplocation.com"
+                                target="_blank">shaplocation.com</a></li>
                         <li>Connectez-vous à votre compte.</li>
                         <li>Accédez à votre profil en cliquant sur votre nom ou votre photo de profil en haut à droite.
                         </li>

@@ -6,6 +6,7 @@ import InscriptionView from "../views/InscriptionView.vue";
 import ProfilView from "../views/ProfilView.vue";
 import UtilisateursView from "../views/UtilisateursView.vue";
 import AjoutArticleView from "../views/AjoutArticleView.vue";
+import PasswordView from "../views/PasswordView.vue";
 
 
 const router = createRouter({
@@ -30,6 +31,11 @@ const router = createRouter({
       path: "/profil",
       name: "profil",
       component: ProfilView,
+    },
+    {
+      path: "/mot-de-passe",
+      name: "password",
+      component: PasswordView,
     },
     {
       path: "/utilisateurs",

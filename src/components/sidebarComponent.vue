@@ -39,6 +39,9 @@ function is_active(path){
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/profil') } " to="/profil">Configuration de profil</RouterLink>
                     </li>
                     <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe') } " to="/mot-de-passe">Modifier mot de passe</RouterLink>
+                    </li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/utilisateurs') } " to="/utilisateurs">Utilisateurs et Fonctions</RouterLink>
                     </li>
                     <li class="nav-item">
