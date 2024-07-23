@@ -56,6 +56,27 @@
     padding-right: 60px;
     /* box-shadow: -5px -5px 10px -5px #00000029; */
 }
+.banner{
+    min-height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('/src/assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.banner-title{
+    background: #27348bc4 !important;
+    color: #fff !important;
+    padding: 2rem !important;
+}
+.banner-title .fa-quote-left ,.banner-title .fa-quote-right{
+    color: #ffde00 !important;
+    font-size: 3rem;
+}
 .links  li a:hover { color : red!important;}
 .vt-hamburger {
     display: flex;

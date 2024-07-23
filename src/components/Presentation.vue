@@ -17,6 +17,15 @@
                 </p>
             </section>
         </header>
+        <div class="banner">
+            <div class="banner-title d-flex justify-content-center align-iems-center flex-column">
+                <h3 class="fw-bolder mb-3 text-center text-white">ShapLocation</h3>
+                <p class="text-center mb-0"><i class="fa-solid fa-quote-left"></i> La Plateforme de Gestion Immobilière
+                    de Référence en Afrique
+                    <i class="fa-solid fa-quote-right"></i>
+                </p>
+            </div>
+        </div>
         <section class="docs-section" id="item-1-1">
             <div class="row">
                 <div class="col-md-12">
@@ -43,16 +52,7 @@
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center define-none">
-                    <p>Page d'accueil de ShapLocation <i class="fas fa-arrow-right"></i></p>
-                </div>
-                <div class="col-md-6  gallery mt-4 d-flex justify-content-center">
-                    <img class="figure-img img-fluid shadow rounded present-img" src="@/assets/images/shaplocation.png"
-                        alt="Image représentative de l'interface principale de ShapLocation"
-                        title="Accueil de Shaplocation" />
-                </div>
-            </div>
+
         </section>
     </article>
 
