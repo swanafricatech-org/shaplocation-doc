@@ -34,20 +34,22 @@
                             formulaire de vérification juste en bas.</li>
                         <li>Entrez votre numéro de téléphone enregistré sur la plateforme lors de l'inscription.</li>
                         <li>Cliquez sur le bouton "Envoyer".
-                            <ol type="">
-                                <li>Un code de vérification sera envoyé par SMS à votre numéro de téléphone.</li>
-                                <li>Entrez le code de vérification reçu dans le champ approprié.</li>
-                                <li>Créez un nouveau mot de passe et confirmez-le.</li>
-                                <li>Cliquez sur "Réinitialiser le mot de passe" pour valider.</li>
-                            </ol>
+                        <li>Un code de vérification sera envoyé par SMS à votre numéro de téléphone.</li>
+                        <li>Entrez le code de vérification reçu dans le champ approprié.</li>
+                        <li>Créez un nouveau mot de passe et confirmez-le.</li>
+                        <li>Cliquez sur "Réinitialiser le mot de passe" pour valider.</li>
+
                         </li>
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="gallery">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-1.png"
+                <div class="col-md-6 d-flex justify-content-center align-items-center gap-5">
+                    <div class="gallery ">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-1.png"
                             alt="Image de la page la page de réinitialisation de mot de passe par numéro de téléphone"
                             title="la page de réinitialisation de mot de passe par numéro de téléphone" />
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-2.png"
+                            alt="Image de la page de réinitialisation de mot de passe par email"
+                            title="la page de réinitialisation de mot de passe par email" />
                     </div>
                 </div>
             </div>
@@ -63,20 +65,21 @@
                             formulaire de vérification juste en bas.</li>
                         <li>Entrez votre adresse email enregistrée sur la plateforme lors de l'inscription.</li>
                         <li>Cliquez sur le bouton "Envoyer".
-                            <ol >
-                                <li>Un email contenant un lien de réinitialisation du mot de passe sera envoyé à votre
-                                    adresse email.</li>
-                                <li>Ouvrez l'email de réinitialisation et cliquez sur le lien fourni.</li>
-                                <li>Créez un nouveau mot de passe et confirmez-le.</li>
-                                <li>Cliquez sur "Réinitialiser le mot de passe" pour valider.</li>
-                            </ol>
+                        <li>Un email contenant un lien de réinitialisation du mot de passe sera envoyé à votre
+                            adresse email.</li>
+                        <li>Ouvrez l'email de réinitialisation et cliquez sur le lien fourni.</li>
+                        <li>Créez un nouveau mot de passe et confirmez-le.</li>
+                        <li>Cliquez sur "Réinitialiser le mot de passe" pour valider.</li>
                         </li>
 
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="gallery">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-2.png"
+                <div class="col-md-6 d-flex justify-content-center align-items-center gap-4">
+                    <div class="gallery ">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-2.png"
+                            alt="Image de la page de réinitialisation de mot de passe par email"
+                            title="la page de réinitialisation de mot de passe par email" />
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-3.png"
                             alt="Image de la page de réinitialisation de mot de passe par email"
                             title="la page de réinitialisation de mot de passe par email" />
                     </div>

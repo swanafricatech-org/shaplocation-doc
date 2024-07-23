@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class=" gallery  ">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register.png"
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-1.png"
                             alt="Image de la page d'inscription" title="Page de d'inscription" />
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class=" gallery  ">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register.png"
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-2.png"
                             alt="Image de la page d'inscription par google" title="Page de d'inscription" />
                     </div>
                 </div>
