@@ -3,12 +3,20 @@
 </script>
 <template>
 
-    <article class="docs-article ph" id="section-2">
-
-        <section class="docs-section" >
-            <h2 class="vt-doc">Comment ajouter un article ?</h2>
+    <article class="docs-article " id="section-3">
+        <header class="docs-header">
+            <h1 class="docs-heading">Ajout d'articles</h1>
+            <section class="docs-intro">
+                <p>
+                    Vous avez oublié votre mot de passe ? Pas de souci ! Suivez ces étapes simples pour réinitialiser
+                    votre mot de passe et accéder à nouveau à votre compte ShapLocation en toute sécurité.
+                </p>
+            </section>
+        </header>
+        <section class="docs-section">
+            <h2 class="vt-doc pad-top">Comment ajouter un article ?</h2>
             <p>Pour ajouter un article sur shaplocation suivez les étapes suivantes :</p>
-            <div class="row mb-3 mt-3">
+            <div class="row mb-3 mt-5">
                 <div class="col-md-12">
                     <ol>
                         <li>

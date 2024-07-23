@@ -47,7 +47,7 @@
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-1.png"
                             alt="Image de la page la page de réinitialisation de mot de passe par numéro de téléphone"
                             title="la page de réinitialisation de mot de passe par numéro de téléphone" />
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-2.png"
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-3.png"
                             alt="Image de la page de réinitialisation de mot de passe par email"
                             title="la page de réinitialisation de mot de passe par email" />
                     </div>

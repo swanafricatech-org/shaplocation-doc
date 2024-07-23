@@ -17,7 +17,7 @@
                 </p>
             </section>
         </header>
-        <div class="banner">
+        <!-- <div class="banner">
             <div class="banner-title d-flex justify-content-center align-iems-center flex-column">
                 <h3 class="fw-bolder mb-3 text-center text-white">ShapLocation</h3>
                 <p class="text-center mb-0"><i class="fa-solid fa-quote-left"></i> La Plateforme de Gestion Immobilière
@@ -25,7 +25,7 @@
                     <i class="fa-solid fa-quote-right"></i>
                 </p>
             </div>
-        </div>
+        </div> -->
         <section class="docs-section" id="item-1-1">
             <div class="row">
                 <div class="col-md-12">

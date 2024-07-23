@@ -26,8 +26,7 @@ function is_active(path){
                         <RouterLink :class="{ active:is_active('/') } " class="nav-link scrollto" to="/">Presentation</RouterLink>
                     </li>
                     <li class="nav-item section-title mt-3">
-                        <a class="nav-link scrollto active" href="#section-2"><span class="theme-icon-holder me-2"><i
-                                    class="fas fa-hand-point-right"></i></span>Prise en main</a>
+                        <a class="nav-link scrollto active" href="#section-2"><span class="theme-icon-holder me-2"><i class="fa-solid fa-shield-halved"></i></span>Authentification</a>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/connexion') } " to="/connexion">Connexion</RouterLink>
@@ -43,6 +42,10 @@ function is_active(path){
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe-oublier') } " to="/mot-de-passe-oublier">Réinitialiser mot de passe</RouterLink>
+                    </li>
+                    <li class="nav-item section-title">
+                        <a class="nav-link scrollto active" href=""><span class="theme-icon-holder me-2"><i
+                                    class="fas fas fa-box"></i></span>Gestion d'articles</a>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/utilisateurs') } " to="/utilisateurs">Utilisateurs et Rôles</RouterLink>

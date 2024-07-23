@@ -3,7 +3,7 @@
 </script>
 <template>
 
-    <article class="docs-article ph" id="section-2">
+    <article class="docs-article " id="section-3">
         <header class="docs-header">
             <h1 class="docs-heading">Utilisateurs et rôles</h1>
             <section class="docs-intro">
