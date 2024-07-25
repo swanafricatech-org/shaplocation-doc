@@ -3,7 +3,7 @@ import router from '@/router';
 import { RouterLink } from 'vue-router';
 function is_active(path){
         return router.currentRoute.value.path === path;
-};
+}
 </script>
 <template lang="">
     <div id="docs-sidebar" class="docs-sidebar">
@@ -35,16 +35,22 @@ function is_active(path){
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/inscription') } " to="/inscription">Inscription</RouterLink>
                     </li>
                     <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe-oublier') } " to="/mot-de-passe-oublier">Réinitialiser mot de passe</RouterLink>
+                    </li>
+                    <li class="nav-item section-title">
+                        <a class="nav-link scrollto active" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-user"></i></span>Gestion de compte</a>
+                    </li>
+                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/profil') } " to="/profil">Configuration de profil</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/devenir-commercant') } " to="/devenir-commercant">Devenir commerçant</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe') } " to="/mot-de-passe">Modifier mot de passe</RouterLink>
                     </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/mot-de-passe-oublier') } " to="/mot-de-passe-oublier">Réinitialiser mot de passe</RouterLink>
-                    </li>
                     <li class="nav-item section-title">
-                        <a class="nav-link scrollto active" href=""><span class="theme-icon-holder me-2"><i
+                        <a class="nav-link scrollto active" href="#section-4"><span class="theme-icon-holder me-2"><i
                                     class="fas fas fa-box"></i></span>Gestion d'articles</a>
                     </li>
                     <li class="nav-item">

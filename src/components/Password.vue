@@ -20,13 +20,22 @@
             <div class="row mb-3 mt-5">
                 <div class="col-md-6">
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur <a class="link-primary" href="https://shaplocation.com"
-                                target="_blank">
-                                shaplocation.com</a></li>
-                        <li>Connectez-vous à votre compte si vous n'êtes pas encore connecter.</li>
+                        <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
+                                target="_blank">shaplocation.com</a></li>
+                        <li>Connectez-vous à votre compte si ce n'est pas encore le cas en cliquant <a
+                                class="link-primary" href="https://shaplocation.com/auth/signin"
+                                target="_blank">ici</a>. <br>Si
+                            vous ne savez pas comment faire,consultez notre guide de
+                            <RouterLink to="/connexion" class="link-primary">connexion</RouterLink> pour plus
+                            d'instructions.
+                        </li>
                         <li>Accédez à votre profil en cliquant sur profil haut à droite.</li>
                         <li>
-                            Cliquez sur le button "Modifier mot de passe"
+                            Cliquez sur le button "Modifier mot de passe" , vous serez rediriger sur la page de
+                            changement de mot de passe.
+
+                        </li>
+                        <li>Remplissez le formulaire de changement de mot de passe
                             <ul>
                                 <li><span class="fw-medium">Mot de Passe Actuel :</span> Saisissez votre mot de passe
                                     actuel pour
@@ -58,8 +67,9 @@
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class=" simplelightbox-gallery  ">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/change-password.png"
-                            alt="Image de la page de profil" title="Page de profil" />
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/pass-change-button.png"
+                            alt="Image du button de changement de mot de passe"
+                            title="button de changement de mot de passe" />
                     </div>
                 </div>
             </div>

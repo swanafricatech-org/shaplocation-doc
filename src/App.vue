@@ -13,11 +13,13 @@ const routes = [
   '/',
   '/connexion',
   '/inscription',
-  '/profil',
-  '/mot-de-passe',
   '/mot-de-passe-oublier',
+  '/profil',
+  '/devenir-commercant',
+  '/mot-de-passe',
   '/utilisateurs',
   '/ajout-article',
+  
 
 
 ];

@@ -29,8 +29,10 @@
                 <div class="col-md-6">
                     <h5><span>#</span> Connexion par numéro de téléphone et mot de passe</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
-                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
+                                target="_blank">shaplocation.com</a></li>
+                        <li>Connectez-vous à votre compte en cliquant <a class="link-primary"
+                                href="https://shaplocation.com/auth/signin" target="_blank">ici</a>
                         </li>
                         <li>Cliquez sur l'endoit ou c'est écris le <span class="fw-medium">"Numero"</span>, vous verrez
                             un formulaire de connexion juste en bas .
@@ -57,8 +59,10 @@
                 <div class="col-md-6">
                     <h5><span>#</span> Connexion par email et mot de passe</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
-                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
+                                target="_blank">shaplocation.com</a></li>
+                        <li>Connectez-vous à votre compte en cliquant <a class="link-primary"
+                                href="https://shaplocation.com/auth/signin" target="_blank">ici</a>
                         </li>
                         <li>Cliquez sur l'endoit ou c'est écris le <span class="fw-medium">"Email"</span>, vous verrez
                             un formulaire de connexion juste en bas .</li>
@@ -84,8 +88,10 @@
                 <div class="col-md-6">
                     <h5><span>#</span> Connexion par Google</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
-                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
+                                target="_blank">shaplocation.com</a></li>
+                        <li>Aller sur la page de connexion en cliquant <a class="link-primary"
+                                href="https://shaplocation.com/auth/signin" target="_blank">ici</a>
                         </li>
                         <li>Cliquez sur l'endroit ou c'est écris le <span class="fw-medium">"Email"</span>, vous verrez
                             le button "Se connecter avec
@@ -99,7 +105,10 @@
                         <li>Finalisez la Connexion - Une fois les autorisations accordées,vous serez connecté
                             automatiquement
                             avec votre compte Google. Ensuite vous serez redirigé vers
-                            la page de <RouterLink to="/profil" class="link-primary"> mise à jour de profil</RouterLink>
+                            la page de mise à jour de profil.
+                            <br> Pour en savoir plus sur la mise à jour de consultez
+                            notre guide de <RouterLink to="/profil" class="link-primary mx-2">mise à jour de profil
+                            </RouterLink>pour plus d'instructions.
                         </li>
 
                         <!-- <li>Complétez le Profil :

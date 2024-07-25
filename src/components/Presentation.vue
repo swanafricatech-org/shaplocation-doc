@@ -31,7 +31,8 @@
                 <div class="col-md-12">
                     <h2 class="vt-doc pad-top">Présentation de ShapLocation</h2>
                     <p>
-                        <span class="fw-medium">Shaplocation</span> propose une solution complète et
+                        <span class="fw-medium"> <a href="http://shaplocation.com" target="_blank"
+                                rel="noopener noreferrer" class="link-primary">Shaplocation</a></span> propose une solution complète et
                         intégrée qui facilite la gestion de toutes les dimensions de l'immobilier et du transport
                         (achat, vente, localisation). Grâce à son interface conviviale et ses fonctionnalités avancées,
                         elle permet de centraliser toutes les informations nécessaires et d'automatiser les tâches

@@ -27,12 +27,16 @@
                 <div class="col-md-6">
                     <h5><span>#</span> Inscription complète</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
-                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
+                                rel="noopener noreferrer" class="link-primary">shaplocation.com</a>
                         </li>
+                        <li> Allez sur la page
+                            de connexion en cliquant <a class="link-primary" href="https://shaplocation.com/auth/signin"
+                                target="_blank">ici</a></li>
                         <li>
                             Vous verrez le lien "Créer un compte" en bas de la page,
-                            cliquer la dessus.
+                            cliquer la dessus. vous pouvez aller directement sur la page d'inscription en cliquant <a
+                                class="link-primary" href="https://shaplocation.com/auth/signup" target="_blank">ici</a>
                         </li>
                         <li>
                             Fournissez les Informations Personnelles :
@@ -76,10 +80,14 @@
 
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                    <div class=" gallery  ">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
+                            alt="Image de la page d'inscription par google" title="Page de d'inscription" />
+                    </div>
                     <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-1.png"
-                            alt="Image de la page d'inscription" title="Page de d'inscription" />
+                            alt="Image de la page d'inscription par google" title="Page de d'inscription" />
                     </div>
                 </div>
             </div>
@@ -87,12 +95,17 @@
                 <div class="col-md-6">
                     <h5><span>#</span> Inscription par Google</h5>
                     <ol>
-                        <li>Accédez à la Plateforme - Allez sur la page de connexion <a class="link-primary"
-                                href="https://shaplocation.com/auth/signin" target="_blank">shaplocation.com</a>
+                        <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
+                                rel="noopener noreferrer" class="link-primary">shaplocation.com</a>
+                        </li>
+                        <li> Allez sur la page
+                            de connexion en cliquant <a class="link-primary" href="https://shaplocation.com/auth/signin"
+                                target="_blank">ici</a>
                         </li>
                         <li>
                             Vous verrez le lien "Créer un compte" en bas de la page,
-                            cliquer la dessus.
+                            cliquer la dessus. vous pouvez aller directement sur la page d'inscription en cliquant <a
+                                class="link-primary" href="https://shaplocation.com/auth/signup" target="_blank">ici</a>
                         </li>
                         <li> vous verrez
                             le button "Se connecter avec
@@ -106,13 +119,19 @@
                         <li>Finalisez la Connexion - Une fois les autorisations accordées,vous serez inscrire
                             automatiquement
                             avec votre compte Google. Ensuite vous serez redirigé vers
-                            la page de <RouterLink to="/profil" class="link-primary"> mise à jour de profil</RouterLink>
+                            la page de mise à jour de profil . <br> Pour en savoir plus sur la mise à jour de consultez
+                            notre guide de <RouterLink to="/profil" class="link-primary mx-2">mise à jour de profil
+                            </RouterLink>pour plus d'instructions.
                         </li>
 
 
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                    <div class=" gallery  ">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
+                            alt="Image de la page d'inscription par google" title="Page de d'inscription" />
+                    </div>
                     <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-2.png"
                             alt="Image de la page d'inscription par google" title="Page de d'inscription" />

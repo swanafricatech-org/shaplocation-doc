@@ -45,8 +45,8 @@
                                 <li><span class="fw-medium mx-1">Caractéristiques :</span> Renseignez les spécifications
                                     et les attributs uniques de votre article ainsi que tout autre aspect pertinent qui
                                     le distingue.</li>
-                                <li><span class="fw-medium mx-1">Images :</span> Téléchargez des images de haute qualité
-                                    pour illustrer l'article. Assurez-vous d'inclure des vues détaillées et variées pour
+                                <li><span class="fw-medium mx-1">Images et video(facultatif) :</span> Téléchargez des images de haute qualité
+                                    pour illustrer l'article.Vous pouvez aussi ajouter des courtes videos de l'aeticle. Assurez-vous d'inclure des vues détaillées et variées pour
                                     une meilleure compréhension visuelle.</li>
                                 <li><span class="fw-medium mx-1">Résumé :</span> Un résumé de toutes les
                                     informations fournies, incluant les détails clés comme le titre, la description, le
