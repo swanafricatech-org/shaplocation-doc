@@ -25,8 +25,8 @@
                         <li>Connectez-vous à votre compte si ce n'est pas encore le cas en cliquant <a
                                 class="link-primary" href="https://shaplocation.com/auth/signin"
                                 target="_blank">ici</a>. <br>Si
-                            vous ne savez pas comment faire,consultez notre guide de
-                            <RouterLink to="/connexion" class="link-primary">connexion</RouterLink> pour plus
+                            vous ne savez pas comment faire,consultez notre guide sur
+                            <RouterLink to="/connexion" class="link-primary">la connexion</RouterLink> pour plus
                             d'instructions.
                         </li>
                         <li>Accédez à votre profil en cliquant sur profil haut à droite.</li>
