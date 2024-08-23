@@ -216,6 +216,24 @@
     padding-top: 1px;
     
 }
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Pour une vidéo de ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    transition: display 0.5s ease-in-out;
+}
+
+.video-container .video-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
 @media screen  and (min-width: 1200px) {
   .d-xl-none{
   display: none;

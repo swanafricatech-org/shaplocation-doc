@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 <template>
 
@@ -26,6 +25,11 @@
             <div class="row mb-3 mt-5" id="ins-mode-1">
                 <div class="col-md-6">
                     <h3><span>#</span> Inscription par formulaire</h3>
+                    <div class="video-container switch-visible-up mt-3 mb-3 ">
+                        <video controls class="video-fluid  shadow">
+                            <source src="/src/assets/video/register-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <ol>
                         <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
                                 rel="noopener noreferrer" class="link-primary">shaplocation.com</a></li>
@@ -54,13 +58,36 @@
                                     confirmation.</li>
                             </ul>
                         </li>
-                        <li>Acceptez les Conditions d'Utilisation - Lisez les conditions d'utilisation et la politique
-                            de confidentialité de ShapLocation.</li>
+                        <li>En vous inscrivant, vous acceptez les conditions d'utilisation et la politique de
+                            confidentialité de ShapLocation.</li>
                         <li>Vérifiez l'Inscription - Cliquez sur le bouton "S'inscrire". Vous recevrez un SMS avec un
-                            code de vérification. Entrez le code au niveau de la page de vérification.</li>
+                            code de vérification. Entrez le code au niveau de la page de vérification.Ensuite, vous
+                            serez redirigé vers la page d'accueil et après vous pouvez faire la mise
+                            à jour de votre profil.<br>
+                            Pour en savoir plus sur la mise à jour, consultez notre guide de <RouterLink to="/profil"
+                                class="link-primary mx-2">mise à jour de profil</RouterLink> pour plus d'instructions.
+                        </li>
                     </ol>
-
-                    <!-- Étapes supplémentaires pour Marchand et Propriétaire -->
+                </div>
+                <div class="col-md-6 d-flex  align-items-center flex-column gap-4">
+                    <div class="video-container switch-visible-down">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/register-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="gallery">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
+                            alt="Image de la page d'inscription par google" title="Page d'inscription" />
+                    </div>
+                    <div class="gallery">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-1.png"
+                            alt="Image de la page d'inscription par google" title="Page d'inscription" />
+                    </div>
+                </div>
+            </div>
+            <!-- Étapes supplémentaires pour Marchand et Propriétaire -->
+            <div class="row mb-3 mt-5">
+                <div class="col-md-6 d-flex  align-items-center flex-column gap-4">
                     <div class="callout-block callout-block-info mt-4">
                         <div class="content">
                             <h3 class="callout-title">
@@ -119,16 +146,7 @@
                         </li>
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
-                    <div class="gallery">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
-                            alt="Image de la page d'inscription par google" title="Page d'inscription" />
-                    </div>
-                    <div class="gallery">
-                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-1.png"
-                            alt="Image de la page d'inscription par google" title="Page d'inscription" />
-                    </div>
-                </div>
+
             </div>
 
             <hr>
@@ -136,6 +154,11 @@
             <div class="row mb-3 mt-5" id="ins-mode-2">
                 <div class="col-md-6">
                     <h3><span>#</span> Inscription par Google</h3>
+                    <div class="video-container switch-visible-up mt-3 mb-3 ">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/register-google.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <ol>
                         <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
                                 rel="noopener noreferrer" class="link-primary">shaplocation.com</a></li>
@@ -144,28 +167,54 @@
                         <li>Vous verrez le lien "Créer un compte" en bas de la page, cliquez dessus. Vous pouvez aller
                             directement sur la page d'inscription en cliquant <a class="link-primary"
                                 href="https://shaplocation.com/auth/signup" target="_blank">ici</a></li>
-                        <li>Vous verrez le bouton "Se connecter avec Google" juste en bas.</li>
-                        <li>Cliquez sur le bouton "Se connecter avec Google".</li>
+                        <li>Vous verrez le bouton "Se connecter avec Google" juste en bas cliquez dessus.</li>
                         <li>Une fenêtre de connexion Google s'ouvrira. Entrez vos informations de connexion Google
                             (adresse email et mot de passe) et suivez les instructions pour vous authentifier.</li>
                         <li>Accordez les autorisations - Si c'est la première fois que vous utilisez votre compte Google
                             pour vous connecter à ShapLocation, vous serez invité à accorder certaines autorisations.
                             Cliquez sur "Accepter" ou "Autoriser".</li>
-                        <li>Finalisez la Connexion - Une fois les autorisations accordées, vous serez inscrit
-                            automatiquement avec votre compte Google. Ensuite, vous serez redirigé vers la page de mise
-                            à jour de profil.<br>
+                        <li>Finalisez l'inscription - Une fois les autorisations accordées, vous serez automatiquement
+                            connecté avec votre compte Google.Ensuite, vous serez redirigé vers la page d'accueil et
+                            après vous pouvez faire
+                            la mise à jour de votre profil.<br>
                             Pour en savoir plus sur la mise à jour, consultez notre guide de <RouterLink to="/profil"
                                 class="link-primary mx-2">mise à jour de profil</RouterLink> pour plus d'instructions.
                         </li>
+                        <li>
+                            Un modal apparaîtra vous demandant : "Quel type de compte souhaitez-vous ?" avec deux
+                            options : <span class="fw-medium">"Marchand"</span> et <span
+                                class="fw-medium">"Propriétaire"</span>.
+                            <ul>
+                                <li>Si vous choisissez l'un des types de compte, cliquez sur le bouton "Enregistrer"
+                                    pour continuer les étapes spécifiques à ce type de compte.</li>
+                                <li>Si vous ne souhaitez pas choisir, vous pouvez fermer le modal en cliquant sur le
+                                    bouton jaune "Fermer".Dans ce cas vous serez juste un simple utilisateur .</li>
+                            </ul>
+                        </li>
+                        <li>En fonction du type de compte choisi, vous serez dirigé vers les étapes spécifiques pour ce
+                            type de compte.</li>
                     </ol>
+                    <p>
+                        <span class="fw-medium">NB:</span> Assurez-vous que votre compte Google est bien sécurisé et que
+                        vous avez accès à l'adresse email associée pour toute vérification ultérieure.
+                    </p>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                <div class="col-md-6 d-flex  align-items-center flex-column gap-4">
+                    <div class="video-container switch-visible-down">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/register-google.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="gallery">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
                             alt="Image de la page d'inscription par google" title="Page de d'inscription" />
                     </div>
                     <div class="gallery">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-2.png"
+                            alt="Image de la page d'inscription par google" title="Page de d'inscription" />
+                    </div>
+                    <div class="gallery">
+                        <img class="figure-img img-fluid shadow rounded" src="@/assets/images/modal-acount-choice.png"
                             alt="Image de la page d'inscription par google" title="Page de d'inscription" />
                     </div>
                 </div>

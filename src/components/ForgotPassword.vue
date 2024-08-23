@@ -25,6 +25,11 @@
             <div class="row mb-4 mt-5" id="rin-mode-1">
                 <div class="col-md-6">
                     <h5><span>#</span> Réinitialisation par numéro de téléphone</h5>
+                    <div class="video-container switch-visible-up mt-3 mb-3 ">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/forgot-pass.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -41,11 +46,17 @@
                         <li>Entrez le code de vérification reçu dans le champ approprié.</li>
                         <li>Créez un nouveau mot de passe et confirmez-le.</li>
                         <li>Cliquez sur "Réinitialiser le mot de passe" ou "Envoyer" pour valider.</li>
-
+                        <li>Vous serez rediriger vers la page de connexion où vous pouvez vous connecter avec votre
+                            numero de téléphone et votre nouveau mot de passe.</li>
                         </li>
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                    <div class="video-container switch-visible-down ">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/register-google.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="gallery ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-link.png"
                             alt="Image de la page la page de connexion" title="la page connexion" />
@@ -84,6 +95,9 @@
                         <li>Ouvrez l'email de réinitialisation et cliquez sur le lien fourni.</li>
                         <li>Créez un nouveau mot de passe et confirmez-le.</li>
                         <li>Cliquez sur "Réinitialiser le mot de passe" ou "Envoyer" pour valider.</li>
+                        <li>Vous serez rediriger vers la page de connexion où vous pouvez vous connecter avec votre
+                            numero de téléphone et votre nouveau mot de passe.</li>
+
                         </li>
 
                     </ol>

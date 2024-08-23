@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const sidebar = document.getElementById("docs-sidebar");
   const sidebarLinks = document.querySelectorAll("#docs-sidebar .scrollto");
- console.log(router.currentRoute.value.path);
+  const visibleUp = document.querySelectorAll(".switch-visible-up");
+  const visibleDown = document.querySelectorAll(".switch-visible-down");
   if (sidebarToggler && sidebar) {
     /* ===== Responsive Sidebar ====== */
 
@@ -48,6 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
     window.onresize = function () {
       responsiveSidebar();
     };
+    window.addEventListener("load", toggleVideos);
+    window.addEventListener("resize", toggleVideos);
 
     function responsiveSidebar() {
       let w = window.innerWidth;
@@ -61,6 +64,24 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("smaller");
         sidebar.classList.remove("sidebar-visible");
         sidebar.classList.add("sidebar-hidden");
+      }
+    }
+    function toggleVideos() {
+      let width = window.innerWidth;
+      if (width > 768) {
+        visibleUp.forEach((visibleUpChild) => {
+          visibleUpChild.classList.add("d-none");
+        });
+        visibleDown.forEach((visibleDownChild) => {
+          visibleDownChild.classList.remove("d-none");
+        });
+      } else {
+        visibleUp.forEach((visibleUpChild) => {
+          visibleUpChild.classList.remove("d-none");
+        });
+        visibleDown.forEach((visibleDownChild) => {
+          visibleDownChild.classList.add("d-none");
+        });
       }
     }
 

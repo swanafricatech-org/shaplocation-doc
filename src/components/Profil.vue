@@ -35,7 +35,7 @@
                                 <li><span class="fw-medium">Nom et Prénom :</span> Modifiez votre prénom et nom de
                                     famille si nécessaire.</li>
                                 <li><span class="fw-medium">Photo de Profil :</span> Téléchargez une nouvelle photo de
-                                    profil pour une meilleure identification visuelle.</li>
+                                    profil en cliquant sur la photo présente sur la page pour une meilleure identification visuelle.</li>
                                 <li><span class="fw-medium">Adresse Email :</span> Changez votre adresse email pour
                                     recevoir des notifications à la bonne adresse.</li>
                                 <li><span class="fw-medium">Numéro de Téléphone :</span> Mettez à jour votre numéro de
