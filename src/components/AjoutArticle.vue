@@ -16,7 +16,14 @@
         <section class="docs-section">
             <h2 class="vt-doc pad-top">Comment ajouter un article ?</h2>
             <p>Pour ajouter un article sur ShapLocation, suivez les étapes suivantes :</p>
-            <div class="row mb-3 mt-5">
+            <div class="row mb-3 mt-3">
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
+                            <source src="/src/assets/video/connexion-email.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
                 <div class="col-md-12">
                     <h3 class="d-flex align-items-center step-title text-primary">
                         <span class="mx-1">Les Préliminaires</span>
@@ -154,8 +161,7 @@
                                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                                     <div class=" gallery  ">
                                         <img class="figure-img img-fluid shadow rounded"
-                                            src="@/assets/images/localisation.png"
-                                            alt="Localisation"
+                                            src="@/assets/images/localisation.png" alt="Localisation"
                                             title="Localisation page" />
                                     </div>
                                 </div>
@@ -218,8 +224,7 @@
                                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                                     <div class=" gallery  ">
                                         <img class="figure-img img-fluid shadow rounded"
-                                            src="@/assets/images/caracteristiques.png"
-                                            alt="caracteristiques"
+                                            src="@/assets/images/caracteristiques.png" alt="caracteristiques"
                                             title="Caractéristiques image" />
                                     </div>
                                 </div>
@@ -254,9 +259,7 @@
                                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                                     <div class=" gallery  ">
                                         <img class="figure-img img-fluid shadow rounded"
-                                            src="@/assets/images/images.png"
-                                            alt=""
-                                            title="images pages" />
+                                            src="@/assets/images/images.png" alt="" title="images pages" />
                                     </div>
                                 </div>
                             </div>
@@ -285,11 +288,10 @@
                                     <div class=" gallery  ">
                                         <img class="figure-img img-fluid shadow rounded"
                                             src="@/assets/images/resume.png"
-                                            alt="Image du button de changement de mot de passe"
-                                            title="Résumé" />
+                                            alt="Image du button de changement de mot de passe" title="Résumé" />
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                         </li>
                     </ol>
 

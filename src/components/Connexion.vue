@@ -26,13 +26,21 @@
             Voici comment procéder pour chaque méthode :
             </p>
             <div class="row mb-4 mt-5" id="mode-1">
-                <div class="col-md-6">
-                    <h5><span>#</span> Connexion par numéro de téléphone et mot de passe</h5>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid  shadow">
+
+                <h5><span>#</span> Connexion par numéro de téléphone et mot de passe</h5>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/connexion-numero.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid  shadow">
+                        <source src="/src/assets/video/connexion-numero.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6">
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -55,11 +63,11 @@
                 </div>
 
                 <div class="col-md-6 d-flex flex-column gap-4 justify-content-center align-items-center">
-                    <div class="video-container switch-visible-down">
+                    <!-- <div class="video-container switch-visible-down">
                         <video controls class="video-fluid switch-visible shadow">
                             <source src="/src/assets/video/connexion-numero.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-1.png"
                             alt="Image de la page de connexion" title="Page de connexion" />
@@ -67,13 +75,21 @@
                 </div>
             </div>
             <div class="row mb-3 mt-5" id="mode-2">
-                <div class="col-md-6">
-                    <h5><span>#</span> Connexion par email et mot de passe</h5>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid  shadow">
+
+                <h5><span>#</span> Connexion par email et mot de passe</h5>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/connexion-email.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid  shadow">
+                        <source src="/src/assets/video/connexion-email.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6">
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -94,11 +110,11 @@
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex flex-column gap-4 justify-content-center align-items-center">
-                    <div class="video-container switch-visible-down">
+                    <!-- <div class="video-container switch-visible-down">
                         <video controls class="video-fluid switch-visible shadow">
-                            <source src="/src/assets/video/connexion-numero.mp4" type="video/mp4">
+                            <source src="/src/assets/video/connexion-email.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-2.png"
                             alt="Image de la page de connexion" title="Page de connexion" />
@@ -106,13 +122,21 @@
                 </div>
             </div>
             <div class="row mb-3 mt-5" id="mode-3">
-                <div class="col-md-6">
-                    <h5><span>#</span> Connexion par Google</h5>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid  shadow">
+
+                <h5><span>#</span> Connexion par Google</h5>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/connexion-google.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid  shadow">
+                        <source src="/src/assets/video/connexion-google.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6 mb-3">
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -127,7 +151,8 @@
                             pour vous connecter à ShapLocation, vous serez invité à accorder certaines autorisations.
                             Cliquez sur "Accepter" ou "Autoriser".</li>
                         <li>Finalisez la Connexion - Une fois les autorisations accordées, vous serez automatiquement
-                            connecté avec votre compte Google.Ensuite, vous serez redirigé vers la page d'accueil et après vous pouvez faire
+                            connecté avec votre compte Google.Ensuite, vous serez redirigé vers la page d'accueil et
+                            après vous pouvez faire
                             la mise à jour de votre profil.<br>
                             Pour en savoir plus sur la mise à jour, consultez notre guide de <RouterLink to="/profil"
                                 class="link-primary mx-2">mise à jour de profil</RouterLink> pour plus d'instructions.
@@ -152,12 +177,12 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 d-flex flex-column  align-items-center gap-3">
-                    <div class="video-container switch-visible-down">
+                <div class="col-md-6 d-flex flex-column  align-items-center gap-4 ">
+                    <!-- <div class="video-container switch-visible-down">
                         <video controls class="video-fluid switch-visible shadow">
-                            <source src="/src/assets/video/connexion-numero.mp4" type="video/mp4">
+                            <source src="/src/assets/video/connexion-google.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class=" gallery  ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/login-3.png"
                             alt="Image de la page de connexion" title="Page de connexion" />

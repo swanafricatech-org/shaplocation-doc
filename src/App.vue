@@ -15,10 +15,12 @@ const routes = [
   '/inscription',
   '/mot-de-passe-oublier',
   '/profil',
+  '/activation-alerte',
   '/devenir-commercant',
   '/mot-de-passe',
   '/utilisateurs',
   '/ajout-article',
+  '/contacter-vendeur',
   
 
 

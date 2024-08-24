@@ -41,7 +41,7 @@
                         peuvent :
                     </p>
                     <ul>
-                        <li>Publier des articles à vendre.</li>
+                        <li>Publier des articles à vendre ou à mettre en location.</li>
                         <li>Gérer leurs articles.</li>
                         <li>Communiquer avec les acheteurs potentiels.</li>
                     </ul>

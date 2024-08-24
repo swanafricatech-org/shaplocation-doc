@@ -23,13 +23,20 @@
 
             <!-- Inscription complète -->
             <div class="row mb-3 mt-5" id="ins-mode-1">
-                <div class="col-md-6">
-                    <h3><span>#</span> Inscription par formulaire</h3>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid  shadow">
+                <h3><span>#</span> Inscription par formulaire</h3>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/register-video.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid  shadow">
+                        <source src="/src/assets/video/register-video.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6">
                     <ol>
                         <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
                                 rel="noopener noreferrer" class="link-primary">shaplocation.com</a></li>
@@ -69,12 +76,12 @@
                         </li>
                     </ol>
                 </div>
-                <div class="col-md-6 d-flex  align-items-center flex-column gap-4">
-                    <div class="video-container switch-visible-down">
+                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                    <!-- <div class="video-container switch-visible-down">
                         <video controls class="video-fluid switch-visible shadow">
                             <source src="/src/assets/video/register-video.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class="gallery">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
                             alt="Image de la page d'inscription par google" title="Page d'inscription" />
@@ -103,12 +110,12 @@
                     <ol start="7">
                         <li>Après la vérification de votre inscription, vous serez redirigé vers une page où vous devez
                             fournir des informations supplémentaires.</li>
-                        <li>Choisissez si vous êtes une entreprise ou un démarcheur :
+                        <li>Choisissez si vous êtes une entreprise ou un particulier :
                             <ul>
                                 <li>
-                                    <span class="fw-medium">Démarcheur :</span>
+                                    <span class="fw-medium">Particulier :</span>
                                     <ol>
-                                        <li>Sélectionnez "Démarcheur" et un formulaire apparaîtra en bas.</li>
+                                        <li>Sélectionnez "Particulier" et un formulaire apparaîtra en bas.</li>
                                         <li>Entrez votre Identifiant Fiscal Unique (IFU) et choisissez le type de pièce
                                             (Certificat d'identification personnelle (CIP) ou Carte nationale d'identité
                                             (CNI)).</li>
@@ -152,13 +159,20 @@
             <hr>
             <!-- Inscription par Google -->
             <div class="row mb-3 mt-5" id="ins-mode-2">
-                <div class="col-md-6">
-                    <h3><span>#</span> Inscription par Google</h3>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid switch-visible shadow">
+                <h3><span>#</span> Inscription par Google</h3>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/register-google.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid switch-visible shadow">
+                        <source src="/src/assets/video/register-google.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6">
                     <ol>
                         <li>Accédez à la Plateforme <a href="http://shaplocation.com" target="_blank"
                                 rel="noopener noreferrer" class="link-primary">shaplocation.com</a></li>
@@ -199,12 +213,12 @@
                         vous avez accès à l'adresse email associée pour toute vérification ultérieure.
                     </p>
                 </div>
-                <div class="col-md-6 d-flex  align-items-center flex-column gap-4">
-                    <div class="video-container switch-visible-down">
+                <div class="col-md-6 d-flex  justify-content-center align-items-center flex-column gap-4">
+                    <!-- <div class="video-container switch-visible-down">
                         <video controls class="video-fluid switch-visible shadow">
                             <source src="/src/assets/video/register-google.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class="gallery">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/register-link.png"
                             alt="Image de la page d'inscription par google" title="Page de d'inscription" />

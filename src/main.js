@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const sidebar = document.getElementById("docs-sidebar");
   const sidebarLinks = document.querySelectorAll("#docs-sidebar .scrollto");
-  const visibleUp = document.querySelectorAll(".switch-visible-up");
-  const visibleDown = document.querySelectorAll(".switch-visible-down");
+  // const visibleUp = document.querySelectorAll(".switch-visible-up");
+  // const visibleDown = document.querySelectorAll(".switch-visible-down");
   if (sidebarToggler && sidebar) {
     /* ===== Responsive Sidebar ====== */
 
@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
     window.onresize = function () {
       responsiveSidebar();
     };
-    window.addEventListener("load", toggleVideos);
-    window.addEventListener("resize", toggleVideos);
+    // window.addEventListener("load", toggleVideos);
+    // window.addEventListener("resize", toggleVideos);
 
     function responsiveSidebar() {
       let w = window.innerWidth;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sidebar.classList.add("sidebar-hidden");
       }
     }
-    function toggleVideos() {
+    /*function toggleVideos() {
       let width = window.innerWidth;
       if (width > 768) {
         visibleUp.forEach((visibleUpChild) => {
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           visibleDownChild.classList.add("d-none");
         });
       }
-    }
+    }*/
 
     sidebarToggler.addEventListener("click", () => {
       sidebarToggler.classList.toggle("is-active");

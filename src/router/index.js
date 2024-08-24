@@ -9,6 +9,8 @@ import AjoutArticleView from "../views/AjoutArticleView.vue";
 import PasswordView from "../views/PasswordView.vue";
 import ForgotPasswordView from '../views/ForgotPasswordView.vue';
 import DevenirCommercantView from "../views/DevenirCommercantView.vue";
+import ActivationAlerteView from '../views/ActivationAlerteView.vue';
+import ContacterVendeurView from '@/views/ContacterVendeurView.vue';
 
 
 
@@ -59,6 +61,16 @@ const router = createRouter({
       path: "/ajout-article",
       name: "ajout-article",
       component: AjoutArticleView,
+    },
+    {
+      path: "/activation-alerte",
+      name: "activation-alerte",
+      component: ActivationAlerteView,
+    },
+    {
+      path: "/contacter-vendeur",
+      name: "contacter-vendeur",
+      component: ContacterVendeurView,
     },
   ],
 });

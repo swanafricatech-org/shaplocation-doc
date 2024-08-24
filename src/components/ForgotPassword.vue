@@ -23,13 +23,20 @@
             </ul>
             Voici comment procéder pour chaque méthode :
             <div class="row mb-4 mt-5" id="rin-mode-1">
-                <div class="col-md-6">
-                    <h5><span>#</span> Réinitialisation par numéro de téléphone</h5>
-                    <div class="video-container switch-visible-up mt-3 mb-3 ">
-                        <video controls class="video-fluid switch-visible shadow">
+                <h5><span>#</span> Réinitialisation par numéro de téléphone</h5>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
                             <source src="/src/assets/video/forgot-pass.mp4" type="video/mp4">
                         </video>
                     </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid switch-visible shadow">
+                        <source src="/src/assets/video/forgot-pass.mp4" type="video/mp4">
+                    </video>
+                </div> -->
+                <div class="col-md-6">
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -52,11 +59,11 @@
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
-                    <div class="video-container switch-visible-down ">
+                    <!-- <div class="video-container switch-visible-down ">
                         <video controls class="video-fluid switch-visible shadow">
                             <source src="/src/assets/video/register-google.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> -->
                     <div class="gallery ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-link.png"
                             alt="Image de la page la page de connexion" title="la page connexion" />
@@ -76,8 +83,20 @@
                 </div>
             </div>
             <div class="row mb-3 mt-5" id="rin-mode-2">
+                <h5><span>#</span> Réinitialisation par email</h5>
+                <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+                    <div class="   mb-3 ">
+                        <video controls class="shadow" width="700">
+                            <source src="/src/assets/video/forgot-pass-email.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <!-- <div class="video-container switch-visible-up mt-3 mb-3 ">
+                    <video controls class="video-fluid switch-visible shadow">
+                        <source src="/src/assets/video/forgot-pass-email.mp4" type="video/mp4">
+                    </video>
+                </div> -->
                 <div class="col-md-6">
-                    <h5><span>#</span> Réinitialisation par email</h5>
                     <ol>
                         <li>Accédez à la Plateforme <a class="link-primary" href="https://shaplocation.com/"
                                 target="_blank">shaplocation.com</a></li>
@@ -103,6 +122,11 @@
                     </ol>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column gap-4">
+                    <!-- <div class="video-container switch-visible-down ">
+                        <video controls class="video-fluid switch-visible shadow">
+                            <source src="/src/assets/video/forgot-pass-email.mp4" type="video/mp4">
+                        </video>
+                    </div> -->
                     <div class="gallery ">
                         <img class="figure-img img-fluid shadow rounded" src="@/assets/images/forgot-pass-link.png"
                             alt="Image de la page la page de connexion" title="la page connexion" />

@@ -44,6 +44,9 @@ function is_active(path){
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/profil') } " to="/profil">Configuration de profil</RouterLink>
                     </li>
                     <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/activation-alerte') } " to="/activation-alerte">Activation d'alerte</RouterLink>
+                    </li>
+                    <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/devenir-commercant') } " to="/devenir-commercant">Devenir commerçant</RouterLink>
                     </li>
                     <li class="nav-item">
@@ -58,6 +61,9 @@ function is_active(path){
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link scrollto" :class="{ active:is_active('/ajout-article') } " to="/ajout-article">Ajouter un article</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink class="nav-link scrollto" :class="{ active:is_active('/contacter-vendeur') } " to="/contacter-vendeur">Contacter le vendeur</RouterLink>
                     </li>
                 </ul>
             </nav>

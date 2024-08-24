@@ -216,10 +216,10 @@
     padding-top: 1px;
     
 }
-.video-container {
+/* .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Pour une vidéo de ratio 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     transition: display 0.5s ease-in-out;
@@ -233,6 +233,15 @@
     height: 100%;
     max-width: 100%;
 }
+.video-container .video-fluid-width{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    max-width: 70%;
+    overflow: hidden;
+} */
 
 @media screen  and (min-width: 1200px) {
   .d-xl-none{
@@ -247,5 +256,7 @@
     .define-none{
         display:  none !important;
     }
-
+    video{
+        width: 420px ;
+    }
 }
